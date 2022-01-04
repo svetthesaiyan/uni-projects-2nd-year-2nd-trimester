@@ -1,0 +1,12 @@
+package exercises;
+
+import javax.swing.JFrame;
+
+public class MyFrame extends JFrame
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("cock");
+
+	}
+}

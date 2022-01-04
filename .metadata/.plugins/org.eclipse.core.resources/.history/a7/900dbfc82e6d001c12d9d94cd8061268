@@ -1,0 +1,14 @@
+package exercises;
+
+import javax.swing.JFrame;
+
+public class MyFrame extends JFrame
+{
+	public MyFrame()	// конструктор (използва същото име като .java файла)
+	{
+		this.setSize(400, 600);
+		this.setDefaultCloseOperation(EXIT_ON_CLOSE);
+		
+		this.setVisible(true);
+	}
+}

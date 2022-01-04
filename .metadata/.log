@@ -1,0 +1,1746 @@
+!SESSION 2022-01-03 17:59:30.467 -----------------------------------------------
+eclipse.buildId=4.21.0.I20210906-0500
+java.version=17
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.oomph.p2.core 2 0 2022-01-03 17:59:34.095
+!MESSAGE Failed to register the thread safe credentials providers: 'java.util.Map org.eclipse.core.internal.runtime.AdapterManager.getFactories()'
+
+!ENTRY org.eclipse.jface 2 0 2022-01-03 18:04:13.689
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-01-03 18:04:13.689
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4efa7d2f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@24bba1b7,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-01-03 18:04:20.089
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\svet_'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2022-01-03 18:06:41.298 -----------------------------------------------
+eclipse.buildId=4.21.0.I20210906-0500
+java.version=17
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.oomph.p2.core 2 0 2022-01-03 18:06:44.346
+!MESSAGE Failed to register the thread safe credentials providers: 'java.util.Map org.eclipse.core.internal.runtime.AdapterManager.getFactories()'
+
+!ENTRY org.eclipse.jface 2 0 2022-01-03 18:06:49.166
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-01-03 18:06:49.166
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@a20898c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5dff108c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-01-03 18:06:52.215
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\svet_'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2022-01-03 18:07:43.291 -----------------------------------------------
+eclipse.buildId=4.21.0.I20210906-0500
+java.version=17
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.oomph.p2.core 2 0 2022-01-03 18:07:46.509
+!MESSAGE Failed to register the thread safe credentials providers: 'java.util.Map org.eclipse.core.internal.runtime.AdapterManager.getFactories()'
+
+!ENTRY org.eclipse.jface 2 0 2022-01-03 18:07:51.045
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-01-03 18:07:51.045
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@75312c94,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@140cfc5f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-01-03 18:07:51.045
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6b063695,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@43edd2ea,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-01-03 18:07:54.103
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\svet_'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2022-01-03 18:08:50.585
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://download.eclipse.org/technology/m2e/releases/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:405)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:119)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.fail(CachingRepositoryManager.java:387)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:278)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:519)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:126)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:110)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$1.runModal(PreloadingRepositoryHandler.java:84)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:188)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2022-01-03 18:08:50.586
+!MESSAGE No repository found at http://download.eclipse.org/technology/m2e/releases/.
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2022-01-03 18:10:47.362
+!MESSAGE Restore failed: java.io.IOException: Directory C:\Users\svet_\AppData\Local\Temp\S__Eclipse_eclipse_09c2da82-474d-4b32-aadc-7cd6e9644300\S\Eclipse not empty: ... Manual restore of backup needed for: C:\Users\svet_\AppData\Local\Temp\S__Eclipse_eclipse_09c2da82-474d-4b32-aadc-7cd6e9644300\S\Eclipse
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2022-01-03 18:10:47.363
+!MESSAGE Restore failed: java.io.IOException: Directory C:\Users\svet_\AppData\Local\Temp\S__Eclipse_eclipse_09c2da82-474d-4b32-aadc-7cd6e9644300 not empty: ... Manual restore of backup needed for: C:\Users\svet_\AppData\Local\Temp\S__Eclipse_eclipse_09c2da82-474d-4b32-aadc-7cd6e9644300
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2022-01-03 18:10:47.363
+!MESSAGE Restore failed: java.nio.file.AccessDeniedException: S:\Eclipse\eclipse\eclipse.exe. Manual restore of backup needed for: C:\Users\svet_\AppData\Local\Temp\S__Eclipse_eclipse_09c2da82-474d-4b32-aadc-7cd6e9644300\S\Eclipse\eclipse\eclipse.exe
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2022-01-03 18:10:47.363
+!MESSAGE Restore failed: java.io.IOException: Directory C:\Users\svet_\AppData\Local\Temp\S__Eclipse_eclipse_09c2da82-474d-4b32-aadc-7cd6e9644300\S\Eclipse\eclipse not empty: ... Manual restore of backup needed for: C:\Users\svet_\AppData\Local\Temp\S__Eclipse_eclipse_09c2da82-474d-4b32-aadc-7cd6e9644300\S\Eclipse\eclipse
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2022-01-03 18:10:47.364
+!MESSAGE Restore failed: java.io.IOException: Directory C:\Users\svet_\AppData\Local\Temp\S__Eclipse_eclipse_09c2da82-474d-4b32-aadc-7cd6e9644300\S not empty: ... Manual restore of backup needed for: C:\Users\svet_\AppData\Local\Temp\S__Eclipse_eclipse_09c2da82-474d-4b32-aadc-7cd6e9644300\S
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2022-01-03 18:10:47.364
+!MESSAGE 2 items out of 3 items restored.
+
+!ENTRY org.eclipse.equinox.p2.engine 4 4 2022-01-03 18:10:47.364
+!MESSAGE An error occurred while committing the engine session for profile: S__Eclipse_eclipse.
+!SUBENTRY 1 org.eclipse.equinox.p2.touchpoint.natives 4 0 2022-01-03 18:10:47.364
+!MESSAGE Restore of backup failed - see log for details. Backup directory name: S__Eclipse_eclipse_09c2da82-474d-4b32-aadc-7cd6e9644300.
+!STACK 0
+java.io.IOException: Errors while restoring - see earlier logged errors
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.SimpleBackupStore.restore(SimpleBackupStore.java:471)
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.LazyBackupStore.restore(LazyBackupStore.java:58)
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.NativeTouchpoint.rollback(NativeTouchpoint.java:234)
+	at org.eclipse.equinox.internal.p2.engine.EngineSession.rollback(EngineSession.java:199)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:89)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:48)
+	at org.eclipse.equinox.p2.operations.ProvisioningSession.performProvisioningPlan(ProvisioningSession.java:181)
+	at org.eclipse.equinox.p2.operations.ProfileModificationJob.runModal(ProfileModificationJob.java:76)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:188)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.engine 4 4 2022-01-03 18:10:47.366
+!MESSAGE An error occurred while uninstalling
+!SUBENTRY 1 org.eclipse.equinox.p2.engine 4 0 2022-01-03 18:10:47.366
+!MESSAGE session context was:(profile=S__Eclipse_eclipse, phase=org.eclipse.equinox.internal.p2.engine.phases.Uninstall, operand=[R]org.eclipse.platform.ide.executable.win32.win32.x86_64 4.21.0.I20210906-0500 --> null, action=org.eclipse.equinox.internal.p2.touchpoint.natives.actions.CleanupzipAction).
+!SUBENTRY 1 org.eclipse.equinox.p2.touchpoint.natives 4 0 2022-01-03 18:10:47.366
+!MESSAGE Backup of file S:\Eclipse\eclipse\eclipse.exe failed.
+!STACK 0
+java.io.IOException: Can not remove : S:\Eclipse\eclipse\eclipse.exe
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.SimpleBackupStore.moveToBackup(SimpleBackupStore.java:575)
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.SimpleBackupStore.backup(SimpleBackupStore.java:243)
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.LazyBackupStore.backup(LazyBackupStore.java:38)
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.actions.CleanupzipAction.cleanupzip(CleanupzipAction.java:90)
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.actions.CleanupzipAction.execute(CleanupzipAction.java:34)
+	at org.eclipse.equinox.internal.p2.engine.ParameterizedProvisioningAction.execute(ParameterizedProvisioningAction.java:42)
+	at org.eclipse.equinox.internal.p2.engine.Phase.mainPerform(Phase.java:186)
+	at org.eclipse.equinox.internal.p2.engine.Phase.perform(Phase.java:99)
+	at org.eclipse.equinox.internal.p2.engine.PhaseSet.perform(PhaseSet.java:50)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:80)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:48)
+	at org.eclipse.equinox.p2.operations.ProvisioningSession.performProvisioningPlan(ProvisioningSession.java:181)
+	at org.eclipse.equinox.p2.operations.ProfileModificationJob.runModal(ProfileModificationJob.java:76)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:188)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.nio.file.AccessDeniedException: S:\Eclipse\eclipse\eclipse.exe
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:275)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.delete(AbstractFileSystemProvider.java:105)
+	at java.base/java.nio.file.Files.delete(Files.java:1152)
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.SimpleBackupStore.moveToBackup(SimpleBackupStore.java:573)
+	... 14 more
+!SESSION 2022-01-03 18:11:39.156 -----------------------------------------------
+eclipse.buildId=4.21.0.I20210906-0500
+java.version=17
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.oomph.p2.core 2 0 2022-01-03 18:11:40.483
+!MESSAGE Failed to register the thread safe credentials providers: 'java.util.Map org.eclipse.core.internal.runtime.AdapterManager.getFactories()'
+
+!ENTRY org.eclipse.jface 2 0 2022-01-03 18:11:44.346
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-01-03 18:11:44.346
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@277474fc,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5ab3f611,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-01-03 18:11:44.347
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@33425171,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@44aa5585,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-01-03 18:11:47.484
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\svet_'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2022-01-03 18:13:34.489
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://download.eclipse.org/technology/m2e/releases/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:405)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:119)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.fail(CachingRepositoryManager.java:387)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:278)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:519)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:126)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:110)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$1.runModal(PreloadingRepositoryHandler.java:84)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:188)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2022-01-03 18:13:34.490
+!MESSAGE No repository found at http://download.eclipse.org/technology/m2e/releases/.
+!SESSION 2022-01-03 18:15:38.444 -----------------------------------------------
+eclipse.buildId=4.21.0.I20210906-0500
+java.version=17
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.oomph.p2.core 2 0 2022-01-03 18:15:41.526
+!MESSAGE Failed to register the thread safe credentials providers: 'java.util.Map org.eclipse.core.internal.runtime.AdapterManager.getFactories()'
+
+!ENTRY org.eclipse.jface 2 0 2022-01-03 18:15:46.389
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-01-03 18:15:46.389
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4d142b53,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3bac86a3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-01-03 18:15:46.389
+!MESSAGE A conflict occurred for ALT+CTRL+P:
+Binding(ALT+CTRL+P,
+	ParameterizedCommand(Command(org.eclipse.linuxtools.changelog.core.preparechangelog,Prepare Changelog,
+		Prepares Changelog,
+		Category(org.eclipse.linuxtools.changelog,Changelog,Changelog key bindings,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@128ca7af,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+P,
+	ParameterizedCommand(Command(org.eclipse.m2e.profiles.ui.commands.selectMavenProfileCommand,Select Maven Profiles,
+		,
+		Category(org.eclipse.ui.category.window,Window,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3bf52f8f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-01-03 18:15:46.389
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@57d7c511,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@811d8d6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-01-03 18:15:50.844
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\svet_'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2022-01-03 18:16:32.585
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://download.eclipse.org/technology/m2e/releases/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:405)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:119)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.fail(CachingRepositoryManager.java:387)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:278)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:519)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:126)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:110)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$1.runModal(PreloadingRepositoryHandler.java:84)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:188)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2022-01-03 18:16:32.585
+!MESSAGE No repository found at http://download.eclipse.org/technology/m2e/releases/.
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2022-01-03 18:17:48.888
+!MESSAGE Restore failed: java.io.IOException: Directory C:\Users\svet_\AppData\Local\Temp\S__Eclipse_eclipse_0db24a94-d27a-4c23-b92c-aef3ca564d21\S not empty: ... Manual restore of backup needed for: C:\Users\svet_\AppData\Local\Temp\S__Eclipse_eclipse_0db24a94-d27a-4c23-b92c-aef3ca564d21\S
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2022-01-03 18:17:48.888
+!MESSAGE Restore failed: java.io.IOException: Directory C:\Users\svet_\AppData\Local\Temp\S__Eclipse_eclipse_0db24a94-d27a-4c23-b92c-aef3ca564d21 not empty: ... Manual restore of backup needed for: C:\Users\svet_\AppData\Local\Temp\S__Eclipse_eclipse_0db24a94-d27a-4c23-b92c-aef3ca564d21
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2022-01-03 18:17:48.889
+!MESSAGE Restore failed: java.nio.file.AccessDeniedException: S:\Eclipse\eclipse\eclipse.exe. Manual restore of backup needed for: C:\Users\svet_\AppData\Local\Temp\S__Eclipse_eclipse_0db24a94-d27a-4c23-b92c-aef3ca564d21\S\Eclipse\eclipse\eclipse.exe
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2022-01-03 18:17:48.889
+!MESSAGE Restore failed: java.io.IOException: Directory C:\Users\svet_\AppData\Local\Temp\S__Eclipse_eclipse_0db24a94-d27a-4c23-b92c-aef3ca564d21\S\Eclipse\eclipse not empty: ... Manual restore of backup needed for: C:\Users\svet_\AppData\Local\Temp\S__Eclipse_eclipse_0db24a94-d27a-4c23-b92c-aef3ca564d21\S\Eclipse\eclipse
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2022-01-03 18:17:48.889
+!MESSAGE Restore failed: java.io.IOException: Directory C:\Users\svet_\AppData\Local\Temp\S__Eclipse_eclipse_0db24a94-d27a-4c23-b92c-aef3ca564d21\S\Eclipse not empty: ... Manual restore of backup needed for: C:\Users\svet_\AppData\Local\Temp\S__Eclipse_eclipse_0db24a94-d27a-4c23-b92c-aef3ca564d21\S\Eclipse
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2022-01-03 18:17:48.890
+!MESSAGE 2 items out of 3 items restored.
+
+!ENTRY org.eclipse.equinox.p2.engine 4 4 2022-01-03 18:17:48.890
+!MESSAGE An error occurred while committing the engine session for profile: S__Eclipse_eclipse.
+!SUBENTRY 1 org.eclipse.equinox.p2.touchpoint.natives 4 0 2022-01-03 18:17:48.890
+!MESSAGE Restore of backup failed - see log for details. Backup directory name: S__Eclipse_eclipse_0db24a94-d27a-4c23-b92c-aef3ca564d21.
+!STACK 0
+java.io.IOException: Errors while restoring - see earlier logged errors
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.SimpleBackupStore.restore(SimpleBackupStore.java:471)
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.LazyBackupStore.restore(LazyBackupStore.java:58)
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.NativeTouchpoint.rollback(NativeTouchpoint.java:234)
+	at org.eclipse.equinox.internal.p2.engine.EngineSession.rollback(EngineSession.java:199)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:89)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:48)
+	at org.eclipse.equinox.p2.operations.ProvisioningSession.performProvisioningPlan(ProvisioningSession.java:181)
+	at org.eclipse.equinox.p2.operations.ProfileModificationJob.runModal(ProfileModificationJob.java:76)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:188)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.engine 4 4 2022-01-03 18:17:48.892
+!MESSAGE An error occurred while uninstalling
+!SUBENTRY 1 org.eclipse.equinox.p2.engine 4 0 2022-01-03 18:17:48.892
+!MESSAGE session context was:(profile=S__Eclipse_eclipse, phase=org.eclipse.equinox.internal.p2.engine.phases.Uninstall, operand=[R]org.eclipse.platform.ide.executable.win32.win32.x86_64 4.21.0.I20210906-0500 --> null, action=org.eclipse.equinox.internal.p2.touchpoint.natives.actions.CleanupzipAction).
+!SUBENTRY 1 org.eclipse.equinox.p2.touchpoint.natives 4 0 2022-01-03 18:17:48.892
+!MESSAGE Backup of file S:\Eclipse\eclipse\eclipse.exe failed.
+!STACK 0
+java.io.IOException: Can not remove : S:\Eclipse\eclipse\eclipse.exe
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.SimpleBackupStore.moveToBackup(SimpleBackupStore.java:575)
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.SimpleBackupStore.backup(SimpleBackupStore.java:243)
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.LazyBackupStore.backup(LazyBackupStore.java:38)
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.actions.CleanupzipAction.cleanupzip(CleanupzipAction.java:90)
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.actions.CleanupzipAction.execute(CleanupzipAction.java:34)
+	at org.eclipse.equinox.internal.p2.engine.ParameterizedProvisioningAction.execute(ParameterizedProvisioningAction.java:42)
+	at org.eclipse.equinox.internal.p2.engine.Phase.mainPerform(Phase.java:186)
+	at org.eclipse.equinox.internal.p2.engine.Phase.perform(Phase.java:99)
+	at org.eclipse.equinox.internal.p2.engine.PhaseSet.perform(PhaseSet.java:50)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:80)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:48)
+	at org.eclipse.equinox.p2.operations.ProvisioningSession.performProvisioningPlan(ProvisioningSession.java:181)
+	at org.eclipse.equinox.p2.operations.ProfileModificationJob.runModal(ProfileModificationJob.java:76)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:188)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.nio.file.AccessDeniedException: S:\Eclipse\eclipse\eclipse.exe
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:275)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.delete(AbstractFileSystemProvider.java:105)
+	at java.base/java.nio.file.Files.delete(Files.java:1152)
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.SimpleBackupStore.moveToBackup(SimpleBackupStore.java:573)
+	... 14 more
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2022-01-03 18:18:26.120
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://download.eclipse.org/technology/m2e/releases/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:405)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:119)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.fail(CachingRepositoryManager.java:387)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:278)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:519)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:126)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:110)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$1.runModal(PreloadingRepositoryHandler.java:84)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:188)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2022-01-03 18:18:26.120
+!MESSAGE No repository found at http://download.eclipse.org/technology/m2e/releases/.
+
+!ENTRY org.eclipse.equinox.p2.ui 4 0 2022-01-03 18:21:59.849
+!MESSAGE Unable to read repository at https://www.eclipse.org/downloads/packages/installer.
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: Unable to read repository at https://www.eclipse.org/downloads/packages/installer.
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.load(SimpleMetadataRepositoryFactory.java:129)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:787)
+	at jdk.internal.reflect.GeneratedMethodAccessor61.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:119)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:447)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:230)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:519)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.p2.ui.ProvisioningUI.loadMetadataRepository(ProvisioningUI.java:498)
+	at org.eclipse.equinox.internal.p2.ui.model.MetadataRepositoryElement.getMetadataRepository(MetadataRepositoryElement.java:138)
+	at org.eclipse.equinox.internal.p2.ui.model.MetadataRepositoryElement.fetchChildren(MetadataRepositoryElement.java:84)
+	at org.eclipse.equinox.internal.p2.ui.model.RemoteQueriedElement.fetchDeferredChildren(RemoteQueriedElement.java:38)
+	at org.eclipse.ui.progress.DeferredTreeContentManager$1.run(DeferredTreeContentManager.java:219)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.io.IOException: https://www.eclipse.org/downloads/packages/installer is not a valid repository location.
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.load(SimpleMetadataRepositoryFactory.java:103)
+	... 17 more
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1002 2022-01-03 18:21:59.849
+!MESSAGE Unable to read repository at https://www.eclipse.org/downloads/packages/installer.
+!STACK 0
+java.io.IOException: https://www.eclipse.org/downloads/packages/installer is not a valid repository location.
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.load(SimpleMetadataRepositoryFactory.java:103)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:787)
+	at jdk.internal.reflect.GeneratedMethodAccessor61.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:119)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:447)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:230)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:519)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.p2.ui.ProvisioningUI.loadMetadataRepository(ProvisioningUI.java:498)
+	at org.eclipse.equinox.internal.p2.ui.model.MetadataRepositoryElement.getMetadataRepository(MetadataRepositoryElement.java:138)
+	at org.eclipse.equinox.internal.p2.ui.model.MetadataRepositoryElement.fetchChildren(MetadataRepositoryElement.java:84)
+	at org.eclipse.equinox.internal.p2.ui.model.RemoteQueriedElement.fetchDeferredChildren(RemoteQueriedElement.java:38)
+	at org.eclipse.ui.progress.DeferredTreeContentManager$1.run(DeferredTreeContentManager.java:219)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.ui 4 0 2022-01-03 18:22:00.433
+!MESSAGE Unable to read repository at https://www.eclipse.org/downloads/packages/installer.
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: Unable to read repository at https://www.eclipse.org/downloads/packages/installer.
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.load(SimpleMetadataRepositoryFactory.java:129)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:787)
+	at jdk.internal.reflect.GeneratedMethodAccessor61.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:119)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:447)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:230)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:519)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.p2.ui.ProvisioningUI.loadMetadataRepository(ProvisioningUI.java:498)
+	at org.eclipse.equinox.internal.p2.ui.model.MetadataRepositoryElement.getMetadataRepository(MetadataRepositoryElement.java:138)
+	at org.eclipse.equinox.internal.p2.ui.model.MetadataRepositoryElement.getRepository(MetadataRepositoryElement.java:127)
+	at org.eclipse.equinox.internal.p2.ui.model.MetadataRepositoryElement.getQueryable(MetadataRepositoryElement.java:120)
+	at org.eclipse.equinox.internal.p2.ui.QueryProvider.getQueryDescriptor(QueryProvider.java:93)
+	at org.eclipse.equinox.internal.p2.ui.model.QueriedElement.fetchChildren(QueriedElement.java:104)
+	at org.eclipse.equinox.internal.p2.ui.model.MetadataRepositoryElement.fetchChildren(MetadataRepositoryElement.java:86)
+	at org.eclipse.equinox.internal.p2.ui.model.RemoteQueriedElement.fetchDeferredChildren(RemoteQueriedElement.java:38)
+	at org.eclipse.ui.progress.DeferredTreeContentManager$1.run(DeferredTreeContentManager.java:219)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.io.IOException: https://www.eclipse.org/downloads/packages/installer is not a valid repository location.
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.load(SimpleMetadataRepositoryFactory.java:103)
+	... 21 more
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1002 2022-01-03 18:22:00.433
+!MESSAGE Unable to read repository at https://www.eclipse.org/downloads/packages/installer.
+!STACK 0
+java.io.IOException: https://www.eclipse.org/downloads/packages/installer is not a valid repository location.
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.load(SimpleMetadataRepositoryFactory.java:103)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:787)
+	at jdk.internal.reflect.GeneratedMethodAccessor61.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:119)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:447)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:230)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:519)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.p2.ui.ProvisioningUI.loadMetadataRepository(ProvisioningUI.java:498)
+	at org.eclipse.equinox.internal.p2.ui.model.MetadataRepositoryElement.getMetadataRepository(MetadataRepositoryElement.java:138)
+	at org.eclipse.equinox.internal.p2.ui.model.MetadataRepositoryElement.getRepository(MetadataRepositoryElement.java:127)
+	at org.eclipse.equinox.internal.p2.ui.model.MetadataRepositoryElement.getQueryable(MetadataRepositoryElement.java:120)
+	at org.eclipse.equinox.internal.p2.ui.QueryProvider.getQueryDescriptor(QueryProvider.java:93)
+	at org.eclipse.equinox.internal.p2.ui.model.QueriedElement.fetchChildren(QueriedElement.java:104)
+	at org.eclipse.equinox.internal.p2.ui.model.MetadataRepositoryElement.fetchChildren(MetadataRepositoryElement.java:86)
+	at org.eclipse.equinox.internal.p2.ui.model.RemoteQueriedElement.fetchDeferredChildren(RemoteQueriedElement.java:38)
+	at org.eclipse.ui.progress.DeferredTreeContentManager$1.run(DeferredTreeContentManager.java:219)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1002 2022-01-03 18:24:25.357
+!MESSAGE Unable to read repository at https://www.eclipse.org/downloads/packages/installer.
+!STACK 0
+java.io.IOException: https://www.eclipse.org/downloads/packages/installer is not a valid repository location.
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.load(SimpleMetadataRepositoryFactory.java:103)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:787)
+	at jdk.internal.reflect.GeneratedMethodAccessor61.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:119)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:447)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:230)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:519)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:152)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:130)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:78)
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2022-01-03 18:24:30.326
+!MESSAGE No repository found at http://download.eclipse.org/technology/m2e/releases/.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2022-01-03 18:24:32.167
+!MESSAGE No repository found at https://www.eclipse.org/downloads/download.php?file=/oomph/epp/2021-12/R/eclipse-inst-jre-win64.exe.
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2022-01-03 18:25:01.528
+!MESSAGE Restore failed: java.io.IOException: Directory C:\Users\svet_\AppData\Local\Temp\S__Eclipse_eclipse_21691f96-a1b7-4279-9d63-23dbd0e4c019\S\Eclipse\eclipse not empty: ... Manual restore of backup needed for: C:\Users\svet_\AppData\Local\Temp\S__Eclipse_eclipse_21691f96-a1b7-4279-9d63-23dbd0e4c019\S\Eclipse\eclipse
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2022-01-03 18:25:01.528
+!MESSAGE Restore failed: java.io.IOException: Directory C:\Users\svet_\AppData\Local\Temp\S__Eclipse_eclipse_21691f96-a1b7-4279-9d63-23dbd0e4c019\S\Eclipse not empty: ... Manual restore of backup needed for: C:\Users\svet_\AppData\Local\Temp\S__Eclipse_eclipse_21691f96-a1b7-4279-9d63-23dbd0e4c019\S\Eclipse
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2022-01-03 18:25:01.528
+!MESSAGE Restore failed: java.io.IOException: Directory C:\Users\svet_\AppData\Local\Temp\S__Eclipse_eclipse_21691f96-a1b7-4279-9d63-23dbd0e4c019\S not empty: ... Manual restore of backup needed for: C:\Users\svet_\AppData\Local\Temp\S__Eclipse_eclipse_21691f96-a1b7-4279-9d63-23dbd0e4c019\S
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2022-01-03 18:25:01.529
+!MESSAGE Restore failed: java.nio.file.AccessDeniedException: S:\Eclipse\eclipse\eclipse.exe. Manual restore of backup needed for: C:\Users\svet_\AppData\Local\Temp\S__Eclipse_eclipse_21691f96-a1b7-4279-9d63-23dbd0e4c019\S\Eclipse\eclipse\eclipse.exe
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2022-01-03 18:25:01.529
+!MESSAGE Restore failed: java.io.IOException: Directory C:\Users\svet_\AppData\Local\Temp\S__Eclipse_eclipse_21691f96-a1b7-4279-9d63-23dbd0e4c019 not empty: ... Manual restore of backup needed for: C:\Users\svet_\AppData\Local\Temp\S__Eclipse_eclipse_21691f96-a1b7-4279-9d63-23dbd0e4c019
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2022-01-03 18:25:01.530
+!MESSAGE 2 items out of 3 items restored.
+
+!ENTRY org.eclipse.equinox.p2.engine 4 4 2022-01-03 18:25:01.530
+!MESSAGE An error occurred while committing the engine session for profile: S__Eclipse_eclipse.
+!SUBENTRY 1 org.eclipse.equinox.p2.touchpoint.natives 4 0 2022-01-03 18:25:01.530
+!MESSAGE Restore of backup failed - see log for details. Backup directory name: S__Eclipse_eclipse_21691f96-a1b7-4279-9d63-23dbd0e4c019.
+!STACK 0
+java.io.IOException: Errors while restoring - see earlier logged errors
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.SimpleBackupStore.restore(SimpleBackupStore.java:471)
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.LazyBackupStore.restore(LazyBackupStore.java:58)
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.NativeTouchpoint.rollback(NativeTouchpoint.java:234)
+	at org.eclipse.equinox.internal.p2.engine.EngineSession.rollback(EngineSession.java:199)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:89)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:48)
+	at org.eclipse.equinox.p2.operations.ProvisioningSession.performProvisioningPlan(ProvisioningSession.java:181)
+	at org.eclipse.equinox.p2.operations.ProfileModificationJob.runModal(ProfileModificationJob.java:76)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:188)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.engine 4 4 2022-01-03 18:25:01.531
+!MESSAGE An error occurred while uninstalling
+!SUBENTRY 1 org.eclipse.equinox.p2.engine 4 0 2022-01-03 18:25:01.531
+!MESSAGE session context was:(profile=S__Eclipse_eclipse, phase=org.eclipse.equinox.internal.p2.engine.phases.Uninstall, operand=[R]org.eclipse.platform.ide.executable.win32.win32.x86_64 4.21.0.I20210906-0500 --> null, action=org.eclipse.equinox.internal.p2.touchpoint.natives.actions.CleanupzipAction).
+!SUBENTRY 1 org.eclipse.equinox.p2.touchpoint.natives 4 0 2022-01-03 18:25:01.531
+!MESSAGE Backup of file S:\Eclipse\eclipse\eclipse.exe failed.
+!STACK 0
+java.io.IOException: Can not remove : S:\Eclipse\eclipse\eclipse.exe
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.SimpleBackupStore.moveToBackup(SimpleBackupStore.java:575)
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.SimpleBackupStore.backup(SimpleBackupStore.java:243)
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.LazyBackupStore.backup(LazyBackupStore.java:38)
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.actions.CleanupzipAction.cleanupzip(CleanupzipAction.java:90)
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.actions.CleanupzipAction.execute(CleanupzipAction.java:34)
+	at org.eclipse.equinox.internal.p2.engine.ParameterizedProvisioningAction.execute(ParameterizedProvisioningAction.java:42)
+	at org.eclipse.equinox.internal.p2.engine.Phase.mainPerform(Phase.java:186)
+	at org.eclipse.equinox.internal.p2.engine.Phase.perform(Phase.java:99)
+	at org.eclipse.equinox.internal.p2.engine.PhaseSet.perform(PhaseSet.java:50)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:80)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:48)
+	at org.eclipse.equinox.p2.operations.ProvisioningSession.performProvisioningPlan(ProvisioningSession.java:181)
+	at org.eclipse.equinox.p2.operations.ProfileModificationJob.runModal(ProfileModificationJob.java:76)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:188)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.nio.file.AccessDeniedException: S:\Eclipse\eclipse\eclipse.exe
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:275)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.delete(AbstractFileSystemProvider.java:105)
+	at java.base/java.nio.file.Files.delete(Files.java:1152)
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.SimpleBackupStore.moveToBackup(SimpleBackupStore.java:573)
+	... 14 more
+!SESSION 2022-01-03 18:28:29.162 -----------------------------------------------
+eclipse.buildId=4.21.0.I20210906-0500
+java.version=17
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.oomph.p2.core 2 0 2022-01-03 18:28:30.564
+!MESSAGE Failed to register the thread safe credentials providers: 'java.util.Map org.eclipse.core.internal.runtime.AdapterManager.getFactories()'
+
+!ENTRY org.eclipse.jface 2 0 2022-01-03 18:28:33.890
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-01-03 18:28:33.890
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4f72078d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2e4d252,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-01-03 18:28:33.890
+!MESSAGE A conflict occurred for ALT+CTRL+P:
+Binding(ALT+CTRL+P,
+	ParameterizedCommand(Command(org.eclipse.linuxtools.changelog.core.preparechangelog,Prepare Changelog,
+		Prepares Changelog,
+		Category(org.eclipse.linuxtools.changelog,Changelog,Changelog key bindings,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3555d804,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+P,
+	ParameterizedCommand(Command(org.eclipse.m2e.profiles.ui.commands.selectMavenProfileCommand,Select Maven Profiles,
+		,
+		Category(org.eclipse.ui.category.window,Window,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@19b8f1bd,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-01-03 18:28:33.890
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@46a9c368,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@62fbefad,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-01-03 18:28:37.027
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\svet_'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2022-01-03 18:28:51.084
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: Unable to read repository at https://www.eclipse.org/downloads/packages/installer.
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.load(SimpleMetadataRepositoryFactory.java:129)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:787)
+	at jdk.internal.reflect.GeneratedMethodAccessor38.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:119)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:447)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:230)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:519)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:126)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:110)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$1.runModal(PreloadingRepositoryHandler.java:84)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:188)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.io.IOException: https://www.eclipse.org/downloads/packages/installer is not a valid repository location.
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.load(SimpleMetadataRepositoryFactory.java:103)
+	... 16 more
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1002 2022-01-03 18:28:51.084
+!MESSAGE Unable to read repository at https://www.eclipse.org/downloads/packages/installer.
+!STACK 0
+java.io.IOException: https://www.eclipse.org/downloads/packages/installer is not a valid repository location.
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.load(SimpleMetadataRepositoryFactory.java:103)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:787)
+	at jdk.internal.reflect.GeneratedMethodAccessor38.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:119)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:447)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:230)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:519)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:126)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:110)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$1.runModal(PreloadingRepositoryHandler.java:84)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:188)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2022-01-03 18:29:00.539
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://download.eclipse.org/technology/m2e/releases/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:405)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:119)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.fail(CachingRepositoryManager.java:387)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:278)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:519)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:126)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:110)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$1.runModal(PreloadingRepositoryHandler.java:84)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:188)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2022-01-03 18:29:00.539
+!MESSAGE No repository found at http://download.eclipse.org/technology/m2e/releases/.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2022-01-03 18:29:25.252
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at https://www.eclipse.org/downloads/download.php?file=/oomph/epp/2021-12/R/eclipse-inst-jre-win64.exe.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:405)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:119)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.fail(CachingRepositoryManager.java:387)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:278)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:519)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:126)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:110)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$1.runModal(PreloadingRepositoryHandler.java:84)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:188)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2022-01-03 18:29:25.252
+!MESSAGE No repository found at https://www.eclipse.org/downloads/download.php?file=/oomph/epp/2021-12/R/eclipse-inst-jre-win64.exe.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2022-01-03 18:30:13.874
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: Unable to read repository at https://www.eclipse.org/downloads/packages/installer.
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.load(SimpleMetadataRepositoryFactory.java:129)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:787)
+	at jdk.internal.reflect.GeneratedMethodAccessor38.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:119)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:447)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:230)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:519)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:126)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:110)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$1.runModal(PreloadingRepositoryHandler.java:84)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:188)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.io.IOException: https://www.eclipse.org/downloads/packages/installer is not a valid repository location.
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.load(SimpleMetadataRepositoryFactory.java:103)
+	... 16 more
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1002 2022-01-03 18:30:13.874
+!MESSAGE Unable to read repository at https://www.eclipse.org/downloads/packages/installer.
+!STACK 0
+java.io.IOException: https://www.eclipse.org/downloads/packages/installer is not a valid repository location.
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.load(SimpleMetadataRepositoryFactory.java:103)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:787)
+	at jdk.internal.reflect.GeneratedMethodAccessor38.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:119)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:447)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:230)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:519)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:126)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:110)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$1.runModal(PreloadingRepositoryHandler.java:84)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:188)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2022-01-03 18:30:17.254
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://download.eclipse.org/technology/m2e/releases/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:405)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:119)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.fail(CachingRepositoryManager.java:387)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:278)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:519)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:126)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:110)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$1.runModal(PreloadingRepositoryHandler.java:84)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:188)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2022-01-03 18:30:17.254
+!MESSAGE No repository found at http://download.eclipse.org/technology/m2e/releases/.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2022-01-03 18:30:19.115
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at https://www.eclipse.org/downloads/download.php?file=/oomph/epp/2021-12/R/eclipse-inst-jre-win64.exe.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:405)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:119)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.fail(CachingRepositoryManager.java:387)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:278)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:519)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:126)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:110)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$1.runModal(PreloadingRepositoryHandler.java:84)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:188)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2022-01-03 18:30:19.115
+!MESSAGE No repository found at https://www.eclipse.org/downloads/download.php?file=/oomph/epp/2021-12/R/eclipse-inst-jre-win64.exe.
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2022-01-03 18:31:28.543
+!MESSAGE Restore failed: java.nio.file.AccessDeniedException: S:\Eclipse\eclipse\eclipse.exe. Manual restore of backup needed for: C:\Users\svet_\AppData\Local\Temp\S__Eclipse_eclipse_1284ab06-908e-43ac-b946-7467b5f79e6f\S\Eclipse\eclipse\eclipse.exe
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2022-01-03 18:31:28.543
+!MESSAGE Restore failed: java.io.IOException: Directory C:\Users\svet_\AppData\Local\Temp\S__Eclipse_eclipse_1284ab06-908e-43ac-b946-7467b5f79e6f\S\Eclipse\eclipse not empty: ... Manual restore of backup needed for: C:\Users\svet_\AppData\Local\Temp\S__Eclipse_eclipse_1284ab06-908e-43ac-b946-7467b5f79e6f\S\Eclipse\eclipse
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2022-01-03 18:31:28.544
+!MESSAGE Restore failed: java.io.IOException: Directory C:\Users\svet_\AppData\Local\Temp\S__Eclipse_eclipse_1284ab06-908e-43ac-b946-7467b5f79e6f\S not empty: ... Manual restore of backup needed for: C:\Users\svet_\AppData\Local\Temp\S__Eclipse_eclipse_1284ab06-908e-43ac-b946-7467b5f79e6f\S
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2022-01-03 18:31:28.544
+!MESSAGE Restore failed: java.io.IOException: Directory C:\Users\svet_\AppData\Local\Temp\S__Eclipse_eclipse_1284ab06-908e-43ac-b946-7467b5f79e6f not empty: ... Manual restore of backup needed for: C:\Users\svet_\AppData\Local\Temp\S__Eclipse_eclipse_1284ab06-908e-43ac-b946-7467b5f79e6f
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2022-01-03 18:31:28.545
+!MESSAGE Restore failed: java.io.IOException: Directory C:\Users\svet_\AppData\Local\Temp\S__Eclipse_eclipse_1284ab06-908e-43ac-b946-7467b5f79e6f\S\Eclipse not empty: ... Manual restore of backup needed for: C:\Users\svet_\AppData\Local\Temp\S__Eclipse_eclipse_1284ab06-908e-43ac-b946-7467b5f79e6f\S\Eclipse
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2022-01-03 18:31:28.545
+!MESSAGE 2 items out of 3 items restored.
+
+!ENTRY org.eclipse.equinox.p2.engine 4 4 2022-01-03 18:31:28.545
+!MESSAGE An error occurred while committing the engine session for profile: S__Eclipse_eclipse.
+!SUBENTRY 1 org.eclipse.equinox.p2.touchpoint.natives 4 0 2022-01-03 18:31:28.545
+!MESSAGE Restore of backup failed - see log for details. Backup directory name: S__Eclipse_eclipse_1284ab06-908e-43ac-b946-7467b5f79e6f.
+!STACK 0
+java.io.IOException: Errors while restoring - see earlier logged errors
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.SimpleBackupStore.restore(SimpleBackupStore.java:471)
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.LazyBackupStore.restore(LazyBackupStore.java:58)
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.NativeTouchpoint.rollback(NativeTouchpoint.java:234)
+	at org.eclipse.equinox.internal.p2.engine.EngineSession.rollback(EngineSession.java:199)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:89)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:48)
+	at org.eclipse.equinox.p2.operations.ProvisioningSession.performProvisioningPlan(ProvisioningSession.java:181)
+	at org.eclipse.equinox.p2.operations.ProfileModificationJob.runModal(ProfileModificationJob.java:76)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:188)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.engine 4 4 2022-01-03 18:31:28.547
+!MESSAGE An error occurred while uninstalling
+!SUBENTRY 1 org.eclipse.equinox.p2.engine 4 0 2022-01-03 18:31:28.547
+!MESSAGE session context was:(profile=S__Eclipse_eclipse, phase=org.eclipse.equinox.internal.p2.engine.phases.Uninstall, operand=[R]org.eclipse.platform.ide.executable.win32.win32.x86_64 4.21.0.I20210906-0500 --> null, action=org.eclipse.equinox.internal.p2.touchpoint.natives.actions.CleanupzipAction).
+!SUBENTRY 1 org.eclipse.equinox.p2.touchpoint.natives 4 0 2022-01-03 18:31:28.547
+!MESSAGE Backup of file S:\Eclipse\eclipse\eclipse.exe failed.
+!STACK 0
+java.io.IOException: Can not remove : S:\Eclipse\eclipse\eclipse.exe
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.SimpleBackupStore.moveToBackup(SimpleBackupStore.java:575)
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.SimpleBackupStore.backup(SimpleBackupStore.java:243)
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.LazyBackupStore.backup(LazyBackupStore.java:38)
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.actions.CleanupzipAction.cleanupzip(CleanupzipAction.java:90)
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.actions.CleanupzipAction.execute(CleanupzipAction.java:34)
+	at org.eclipse.equinox.internal.p2.engine.ParameterizedProvisioningAction.execute(ParameterizedProvisioningAction.java:42)
+	at org.eclipse.equinox.internal.p2.engine.Phase.mainPerform(Phase.java:186)
+	at org.eclipse.equinox.internal.p2.engine.Phase.perform(Phase.java:99)
+	at org.eclipse.equinox.internal.p2.engine.PhaseSet.perform(PhaseSet.java:50)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:80)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:48)
+	at org.eclipse.equinox.p2.operations.ProvisioningSession.performProvisioningPlan(ProvisioningSession.java:181)
+	at org.eclipse.equinox.p2.operations.ProfileModificationJob.runModal(ProfileModificationJob.java:76)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:188)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.nio.file.AccessDeniedException: S:\Eclipse\eclipse\eclipse.exe
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:275)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.delete(AbstractFileSystemProvider.java:105)
+	at java.base/java.nio.file.Files.delete(Files.java:1152)
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.SimpleBackupStore.moveToBackup(SimpleBackupStore.java:573)
+	... 14 more
+!SESSION 2022-01-03 19:38:59.019 -----------------------------------------------
+eclipse.buildId=4.21.0.I20210906-0500
+java.version=17
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.oomph.p2.core 2 0 2022-01-03 19:39:00.503
+!MESSAGE Failed to register the thread safe credentials providers: 'java.util.Map org.eclipse.core.internal.runtime.AdapterManager.getFactories()'
+
+!ENTRY org.eclipse.jface 2 0 2022-01-03 19:39:04.010
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-01-03 19:39:04.010
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7866a7a6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2262bc86,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-01-03 19:39:04.010
+!MESSAGE A conflict occurred for ALT+CTRL+P:
+Binding(ALT+CTRL+P,
+	ParameterizedCommand(Command(org.eclipse.linuxtools.changelog.core.preparechangelog,Prepare Changelog,
+		Prepares Changelog,
+		Category(org.eclipse.linuxtools.changelog,Changelog,Changelog key bindings,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3872867d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+P,
+	ParameterizedCommand(Command(org.eclipse.m2e.profiles.ui.commands.selectMavenProfileCommand,Select Maven Profiles,
+		,
+		Category(org.eclipse.ui.category.window,Window,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4f72078d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-01-03 19:39:04.010
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2e4d252,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3555d804,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-01-03 19:39:07.273
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\svet_'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2022-01-03 19:40:38.680
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: Unable to read repository at https://www.eclipse.org/downloads/packages/installer.
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.load(SimpleMetadataRepositoryFactory.java:129)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:787)
+	at jdk.internal.reflect.GeneratedMethodAccessor40.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:119)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:447)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:230)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:519)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:126)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:110)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$1.runModal(PreloadingRepositoryHandler.java:84)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:188)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.io.IOException: https://www.eclipse.org/downloads/packages/installer is not a valid repository location.
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.load(SimpleMetadataRepositoryFactory.java:103)
+	... 16 more
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1002 2022-01-03 19:40:38.681
+!MESSAGE Unable to read repository at https://www.eclipse.org/downloads/packages/installer.
+!STACK 0
+java.io.IOException: https://www.eclipse.org/downloads/packages/installer is not a valid repository location.
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.load(SimpleMetadataRepositoryFactory.java:103)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:787)
+	at jdk.internal.reflect.GeneratedMethodAccessor40.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:119)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:447)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:230)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:519)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:126)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:110)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$1.runModal(PreloadingRepositoryHandler.java:84)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:188)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2022-01-03 19:40:48.406
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://download.eclipse.org/technology/m2e/releases/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:405)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:119)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.fail(CachingRepositoryManager.java:387)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:278)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:519)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:126)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:110)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$1.runModal(PreloadingRepositoryHandler.java:84)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:188)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2022-01-03 19:40:48.406
+!MESSAGE No repository found at http://download.eclipse.org/technology/m2e/releases/.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2022-01-03 19:41:11.609
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at https://www.eclipse.org/downloads/download.php?file=/oomph/epp/2021-12/R/eclipse-inst-jre-win64.exe.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:405)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:119)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.fail(CachingRepositoryManager.java:387)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:278)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:519)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:126)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:110)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$1.runModal(PreloadingRepositoryHandler.java:84)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:188)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2022-01-03 19:41:11.609
+!MESSAGE No repository found at https://www.eclipse.org/downloads/download.php?file=/oomph/epp/2021-12/R/eclipse-inst-jre-win64.exe.
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2022-01-03 19:42:10.700
+!MESSAGE Restore failed: java.io.IOException: Directory C:\Users\svet_\AppData\Local\Temp\S__Eclipse_eclipse_98d65e48-bcb7-454c-8d06-99e90f1b121d\S\Eclipse\eclipse not empty: ... Manual restore of backup needed for: C:\Users\svet_\AppData\Local\Temp\S__Eclipse_eclipse_98d65e48-bcb7-454c-8d06-99e90f1b121d\S\Eclipse\eclipse
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2022-01-03 19:42:10.700
+!MESSAGE Restore failed: java.io.IOException: Directory C:\Users\svet_\AppData\Local\Temp\S__Eclipse_eclipse_98d65e48-bcb7-454c-8d06-99e90f1b121d\S\Eclipse not empty: ... Manual restore of backup needed for: C:\Users\svet_\AppData\Local\Temp\S__Eclipse_eclipse_98d65e48-bcb7-454c-8d06-99e90f1b121d\S\Eclipse
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2022-01-03 19:42:10.701
+!MESSAGE Restore failed: java.io.IOException: Directory C:\Users\svet_\AppData\Local\Temp\S__Eclipse_eclipse_98d65e48-bcb7-454c-8d06-99e90f1b121d\S not empty: ... Manual restore of backup needed for: C:\Users\svet_\AppData\Local\Temp\S__Eclipse_eclipse_98d65e48-bcb7-454c-8d06-99e90f1b121d\S
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2022-01-03 19:42:10.701
+!MESSAGE Restore failed: java.io.IOException: Directory C:\Users\svet_\AppData\Local\Temp\S__Eclipse_eclipse_98d65e48-bcb7-454c-8d06-99e90f1b121d not empty: ... Manual restore of backup needed for: C:\Users\svet_\AppData\Local\Temp\S__Eclipse_eclipse_98d65e48-bcb7-454c-8d06-99e90f1b121d
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2022-01-03 19:42:10.701
+!MESSAGE Restore failed: java.nio.file.AccessDeniedException: S:\Eclipse\eclipse\eclipse.exe. Manual restore of backup needed for: C:\Users\svet_\AppData\Local\Temp\S__Eclipse_eclipse_98d65e48-bcb7-454c-8d06-99e90f1b121d\S\Eclipse\eclipse\eclipse.exe
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2022-01-03 19:42:10.702
+!MESSAGE 2 items out of 3 items restored.
+
+!ENTRY org.eclipse.equinox.p2.engine 4 4 2022-01-03 19:42:10.702
+!MESSAGE An error occurred while committing the engine session for profile: S__Eclipse_eclipse.
+!SUBENTRY 1 org.eclipse.equinox.p2.touchpoint.natives 4 0 2022-01-03 19:42:10.702
+!MESSAGE Restore of backup failed - see log for details. Backup directory name: S__Eclipse_eclipse_98d65e48-bcb7-454c-8d06-99e90f1b121d.
+!STACK 0
+java.io.IOException: Errors while restoring - see earlier logged errors
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.SimpleBackupStore.restore(SimpleBackupStore.java:471)
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.LazyBackupStore.restore(LazyBackupStore.java:58)
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.NativeTouchpoint.rollback(NativeTouchpoint.java:234)
+	at org.eclipse.equinox.internal.p2.engine.EngineSession.rollback(EngineSession.java:199)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:89)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:48)
+	at org.eclipse.equinox.p2.operations.ProvisioningSession.performProvisioningPlan(ProvisioningSession.java:181)
+	at org.eclipse.equinox.p2.operations.ProfileModificationJob.runModal(ProfileModificationJob.java:76)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:188)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.engine 4 4 2022-01-03 19:42:10.704
+!MESSAGE An error occurred while uninstalling
+!SUBENTRY 1 org.eclipse.equinox.p2.engine 4 0 2022-01-03 19:42:10.704
+!MESSAGE session context was:(profile=S__Eclipse_eclipse, phase=org.eclipse.equinox.internal.p2.engine.phases.Uninstall, operand=[R]org.eclipse.platform.ide.executable.win32.win32.x86_64 4.21.0.I20210906-0500 --> null, action=org.eclipse.equinox.internal.p2.touchpoint.natives.actions.CleanupzipAction).
+!SUBENTRY 1 org.eclipse.equinox.p2.touchpoint.natives 4 0 2022-01-03 19:42:10.704
+!MESSAGE Backup of file S:\Eclipse\eclipse\eclipse.exe failed.
+!STACK 0
+java.io.IOException: Can not remove : S:\Eclipse\eclipse\eclipse.exe
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.SimpleBackupStore.moveToBackup(SimpleBackupStore.java:575)
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.SimpleBackupStore.backup(SimpleBackupStore.java:243)
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.LazyBackupStore.backup(LazyBackupStore.java:38)
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.actions.CleanupzipAction.cleanupzip(CleanupzipAction.java:90)
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.actions.CleanupzipAction.execute(CleanupzipAction.java:34)
+	at org.eclipse.equinox.internal.p2.engine.ParameterizedProvisioningAction.execute(ParameterizedProvisioningAction.java:42)
+	at org.eclipse.equinox.internal.p2.engine.Phase.mainPerform(Phase.java:186)
+	at org.eclipse.equinox.internal.p2.engine.Phase.perform(Phase.java:99)
+	at org.eclipse.equinox.internal.p2.engine.PhaseSet.perform(PhaseSet.java:50)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:80)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:48)
+	at org.eclipse.equinox.p2.operations.ProvisioningSession.performProvisioningPlan(ProvisioningSession.java:181)
+	at org.eclipse.equinox.p2.operations.ProfileModificationJob.runModal(ProfileModificationJob.java:76)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:188)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.nio.file.AccessDeniedException: S:\Eclipse\eclipse\eclipse.exe
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:275)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.delete(AbstractFileSystemProvider.java:105)
+	at java.base/java.nio.file.Files.delete(Files.java:1152)
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.SimpleBackupStore.moveToBackup(SimpleBackupStore.java:573)
+	... 14 more
+!SESSION 2022-01-04 08:15:04.555 -----------------------------------------------
+eclipse.buildId=4.21.0.I20210906-0500
+java.version=17
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.oomph.p2.core 2 0 2022-01-04 08:15:08.882
+!MESSAGE Failed to register the thread safe credentials providers: 'java.util.Map org.eclipse.core.internal.runtime.AdapterManager.getFactories()'
+
+!ENTRY org.eclipse.jface 2 0 2022-01-04 08:15:32.478
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-01-04 08:15:32.478
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2e4d252,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3555d804,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-01-04 08:15:32.478
+!MESSAGE A conflict occurred for ALT+CTRL+P:
+Binding(ALT+CTRL+P,
+	ParameterizedCommand(Command(org.eclipse.linuxtools.changelog.core.preparechangelog,Prepare Changelog,
+		Prepares Changelog,
+		Category(org.eclipse.linuxtools.changelog,Changelog,Changelog key bindings,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@19b8f1bd,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+P,
+	ParameterizedCommand(Command(org.eclipse.m2e.profiles.ui.commands.selectMavenProfileCommand,Select Maven Profiles,
+		,
+		Category(org.eclipse.ui.category.window,Window,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@46a9c368,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-01-04 08:15:32.478
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@62fbefad,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@79f59e0e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-01-04 08:15:37.188
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\svet_'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1002 2022-01-04 08:42:16.861
+!MESSAGE Unable to read repository at https://www.eclipse.org/downloads/packages/installer.
+!STACK 0
+java.io.IOException: https://www.eclipse.org/downloads/packages/installer is not a valid repository location.
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.load(SimpleMetadataRepositoryFactory.java:103)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:787)
+	at jdk.internal.reflect.GeneratedMethodAccessor56.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:119)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:447)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:230)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:519)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:152)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:130)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:78)
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2022-01-04 08:42:24.297
+!MESSAGE No repository found at http://download.eclipse.org/technology/m2e/releases/.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2022-01-04 08:42:51.949
+!MESSAGE No repository found at https://www.eclipse.org/downloads/download.php?file=/oomph/epp/2021-12/R/eclipse-inst-jre-win64.exe.
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2022-01-04 08:45:18.241
+!MESSAGE Restore failed: java.io.IOException: Directory C:\Users\svet_\AppData\Local\Temp\S__Eclipse_eclipse_e2fa22fa-e368-49cb-b77f-250234c4aa9d not empty: ... Manual restore of backup needed for: C:\Users\svet_\AppData\Local\Temp\S__Eclipse_eclipse_e2fa22fa-e368-49cb-b77f-250234c4aa9d
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2022-01-04 08:45:18.242
+!MESSAGE Restore failed: java.nio.file.AccessDeniedException: S:\Eclipse\eclipse\eclipse.exe. Manual restore of backup needed for: C:\Users\svet_\AppData\Local\Temp\S__Eclipse_eclipse_e2fa22fa-e368-49cb-b77f-250234c4aa9d\S\Eclipse\eclipse\eclipse.exe
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2022-01-04 08:45:18.242
+!MESSAGE Restore failed: java.io.IOException: Directory C:\Users\svet_\AppData\Local\Temp\S__Eclipse_eclipse_e2fa22fa-e368-49cb-b77f-250234c4aa9d\S\Eclipse not empty: ... Manual restore of backup needed for: C:\Users\svet_\AppData\Local\Temp\S__Eclipse_eclipse_e2fa22fa-e368-49cb-b77f-250234c4aa9d\S\Eclipse
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2022-01-04 08:45:18.242
+!MESSAGE Restore failed: java.io.IOException: Directory C:\Users\svet_\AppData\Local\Temp\S__Eclipse_eclipse_e2fa22fa-e368-49cb-b77f-250234c4aa9d\S not empty: ... Manual restore of backup needed for: C:\Users\svet_\AppData\Local\Temp\S__Eclipse_eclipse_e2fa22fa-e368-49cb-b77f-250234c4aa9d\S
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2022-01-04 08:45:18.243
+!MESSAGE Restore failed: java.io.IOException: Directory C:\Users\svet_\AppData\Local\Temp\S__Eclipse_eclipse_e2fa22fa-e368-49cb-b77f-250234c4aa9d\S\Eclipse\eclipse not empty: ... Manual restore of backup needed for: C:\Users\svet_\AppData\Local\Temp\S__Eclipse_eclipse_e2fa22fa-e368-49cb-b77f-250234c4aa9d\S\Eclipse\eclipse
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2022-01-04 08:45:18.243
+!MESSAGE 2 items out of 3 items restored.
+
+!ENTRY org.eclipse.equinox.p2.engine 4 4 2022-01-04 08:45:18.243
+!MESSAGE An error occurred while committing the engine session for profile: S__Eclipse_eclipse.
+!SUBENTRY 1 org.eclipse.equinox.p2.touchpoint.natives 4 0 2022-01-04 08:45:18.243
+!MESSAGE Restore of backup failed - see log for details. Backup directory name: S__Eclipse_eclipse_e2fa22fa-e368-49cb-b77f-250234c4aa9d.
+!STACK 0
+java.io.IOException: Errors while restoring - see earlier logged errors
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.SimpleBackupStore.restore(SimpleBackupStore.java:471)
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.LazyBackupStore.restore(LazyBackupStore.java:58)
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.NativeTouchpoint.rollback(NativeTouchpoint.java:234)
+	at org.eclipse.equinox.internal.p2.engine.EngineSession.rollback(EngineSession.java:199)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:89)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:48)
+	at org.eclipse.equinox.p2.operations.ProvisioningSession.performProvisioningPlan(ProvisioningSession.java:181)
+	at org.eclipse.equinox.p2.operations.ProfileModificationJob.runModal(ProfileModificationJob.java:76)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:188)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.engine 4 4 2022-01-04 08:45:18.245
+!MESSAGE An error occurred while uninstalling
+!SUBENTRY 1 org.eclipse.equinox.p2.engine 4 0 2022-01-04 08:45:18.245
+!MESSAGE session context was:(profile=S__Eclipse_eclipse, phase=org.eclipse.equinox.internal.p2.engine.phases.Uninstall, operand=[R]org.eclipse.platform.ide.executable.win32.win32.x86_64 4.21.0.I20210906-0500 --> null, action=org.eclipse.equinox.internal.p2.touchpoint.natives.actions.CleanupzipAction).
+!SUBENTRY 1 org.eclipse.equinox.p2.touchpoint.natives 4 0 2022-01-04 08:45:18.245
+!MESSAGE Backup of file S:\Eclipse\eclipse\eclipse.exe failed.
+!STACK 0
+java.io.IOException: Can not remove : S:\Eclipse\eclipse\eclipse.exe
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.SimpleBackupStore.moveToBackup(SimpleBackupStore.java:575)
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.SimpleBackupStore.backup(SimpleBackupStore.java:243)
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.LazyBackupStore.backup(LazyBackupStore.java:38)
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.actions.CleanupzipAction.cleanupzip(CleanupzipAction.java:90)
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.actions.CleanupzipAction.execute(CleanupzipAction.java:34)
+	at org.eclipse.equinox.internal.p2.engine.ParameterizedProvisioningAction.execute(ParameterizedProvisioningAction.java:42)
+	at org.eclipse.equinox.internal.p2.engine.Phase.mainPerform(Phase.java:186)
+	at org.eclipse.equinox.internal.p2.engine.Phase.perform(Phase.java:99)
+	at org.eclipse.equinox.internal.p2.engine.PhaseSet.perform(PhaseSet.java:50)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:80)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:48)
+	at org.eclipse.equinox.p2.operations.ProvisioningSession.performProvisioningPlan(ProvisioningSession.java:181)
+	at org.eclipse.equinox.p2.operations.ProfileModificationJob.runModal(ProfileModificationJob.java:76)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:188)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.nio.file.AccessDeniedException: S:\Eclipse\eclipse\eclipse.exe
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:275)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.delete(AbstractFileSystemProvider.java:105)
+	at java.base/java.nio.file.Files.delete(Files.java:1152)
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.SimpleBackupStore.moveToBackup(SimpleBackupStore.java:573)
+	... 14 more
+
+!ENTRY org.eclipse.epp.mpc.ui 4 0 2022-01-04 08:55:19.611
+!MESSAGE Problems occurred while performing provisioning operation: operation plan must be resolved
+!STACK 0
+java.lang.IllegalStateException: operation plan must be resolved
+	at org.eclipse.equinox.internal.p2.ui.ProvUI.toCurrentJREOperation(ProvUI.java:338)
+	at org.eclipse.equinox.internal.p2.ui.ProvUI.toCompabilityWithCurrentJREProvisioningPlan(ProvUI.java:325)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceWizard.lambda$5(MarketplaceWizard.java:876)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1002 2022-01-04 13:45:24.554
+!MESSAGE Unable to read repository at https://www.eclipse.org/downloads/packages/installer.
+!STACK 0
+java.io.IOException: https://www.eclipse.org/downloads/packages/installer is not a valid repository location.
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.load(SimpleMetadataRepositoryFactory.java:103)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:787)
+	at jdk.internal.reflect.GeneratedMethodAccessor56.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:119)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:447)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:230)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:519)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:152)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:130)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:78)
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2022-01-04 13:45:27.997
+!MESSAGE No repository found at http://download.eclipse.org/technology/m2e/releases/.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2022-01-04 13:45:30.883
+!MESSAGE No repository found at https://www.eclipse.org/downloads/download.php?file=/oomph/epp/2021-12/R/eclipse-inst-jre-win64.exe.
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2022-01-04 13:46:30.370
+!MESSAGE Restore failed: java.io.IOException: Directory C:\Users\svet_\AppData\Local\Temp\S__Eclipse_eclipse_2ed06926-8714-4f15-8998-cacc779fa750\S\Eclipse\eclipse not empty: ... Manual restore of backup needed for: C:\Users\svet_\AppData\Local\Temp\S__Eclipse_eclipse_2ed06926-8714-4f15-8998-cacc779fa750\S\Eclipse\eclipse
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2022-01-04 13:46:30.370
+!MESSAGE Restore failed: java.io.IOException: Directory C:\Users\svet_\AppData\Local\Temp\S__Eclipse_eclipse_2ed06926-8714-4f15-8998-cacc779fa750\S\Eclipse not empty: ... Manual restore of backup needed for: C:\Users\svet_\AppData\Local\Temp\S__Eclipse_eclipse_2ed06926-8714-4f15-8998-cacc779fa750\S\Eclipse
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2022-01-04 13:46:30.371
+!MESSAGE Restore failed: java.nio.file.AccessDeniedException: S:\Eclipse\eclipse\eclipse.exe. Manual restore of backup needed for: C:\Users\svet_\AppData\Local\Temp\S__Eclipse_eclipse_2ed06926-8714-4f15-8998-cacc779fa750\S\Eclipse\eclipse\eclipse.exe
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2022-01-04 13:46:30.371
+!MESSAGE Restore failed: java.io.IOException: Directory C:\Users\svet_\AppData\Local\Temp\S__Eclipse_eclipse_2ed06926-8714-4f15-8998-cacc779fa750 not empty: ... Manual restore of backup needed for: C:\Users\svet_\AppData\Local\Temp\S__Eclipse_eclipse_2ed06926-8714-4f15-8998-cacc779fa750
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2022-01-04 13:46:30.371
+!MESSAGE Restore failed: java.io.IOException: Directory C:\Users\svet_\AppData\Local\Temp\S__Eclipse_eclipse_2ed06926-8714-4f15-8998-cacc779fa750\S not empty: ... Manual restore of backup needed for: C:\Users\svet_\AppData\Local\Temp\S__Eclipse_eclipse_2ed06926-8714-4f15-8998-cacc779fa750\S
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 4 0 2022-01-04 13:46:30.372
+!MESSAGE 2 items out of 3 items restored.
+
+!ENTRY org.eclipse.equinox.p2.engine 4 4 2022-01-04 13:46:30.372
+!MESSAGE An error occurred while committing the engine session for profile: S__Eclipse_eclipse.
+!SUBENTRY 1 org.eclipse.equinox.p2.touchpoint.natives 4 0 2022-01-04 13:46:30.372
+!MESSAGE Restore of backup failed - see log for details. Backup directory name: S__Eclipse_eclipse_2ed06926-8714-4f15-8998-cacc779fa750.
+!STACK 0
+java.io.IOException: Errors while restoring - see earlier logged errors
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.SimpleBackupStore.restore(SimpleBackupStore.java:471)
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.LazyBackupStore.restore(LazyBackupStore.java:58)
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.NativeTouchpoint.rollback(NativeTouchpoint.java:234)
+	at org.eclipse.equinox.internal.p2.engine.EngineSession.rollback(EngineSession.java:199)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:89)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:48)
+	at org.eclipse.equinox.p2.operations.ProvisioningSession.performProvisioningPlan(ProvisioningSession.java:181)
+	at org.eclipse.equinox.p2.operations.ProfileModificationJob.runModal(ProfileModificationJob.java:76)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:188)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.engine 4 4 2022-01-04 13:46:30.373
+!MESSAGE An error occurred while uninstalling
+!SUBENTRY 1 org.eclipse.equinox.p2.engine 4 0 2022-01-04 13:46:30.373
+!MESSAGE session context was:(profile=S__Eclipse_eclipse, phase=org.eclipse.equinox.internal.p2.engine.phases.Uninstall, operand=[R]org.eclipse.platform.ide.executable.win32.win32.x86_64 4.21.0.I20210906-0500 --> null, action=org.eclipse.equinox.internal.p2.touchpoint.natives.actions.CleanupzipAction).
+!SUBENTRY 1 org.eclipse.equinox.p2.touchpoint.natives 4 0 2022-01-04 13:46:30.373
+!MESSAGE Backup of file S:\Eclipse\eclipse\eclipse.exe failed.
+!STACK 0
+java.io.IOException: Can not remove : S:\Eclipse\eclipse\eclipse.exe
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.SimpleBackupStore.moveToBackup(SimpleBackupStore.java:575)
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.SimpleBackupStore.backup(SimpleBackupStore.java:243)
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.LazyBackupStore.backup(LazyBackupStore.java:38)
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.actions.CleanupzipAction.cleanupzip(CleanupzipAction.java:90)
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.actions.CleanupzipAction.execute(CleanupzipAction.java:34)
+	at org.eclipse.equinox.internal.p2.engine.ParameterizedProvisioningAction.execute(ParameterizedProvisioningAction.java:42)
+	at org.eclipse.equinox.internal.p2.engine.Phase.mainPerform(Phase.java:186)
+	at org.eclipse.equinox.internal.p2.engine.Phase.perform(Phase.java:99)
+	at org.eclipse.equinox.internal.p2.engine.PhaseSet.perform(PhaseSet.java:50)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:80)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:48)
+	at org.eclipse.equinox.p2.operations.ProvisioningSession.performProvisioningPlan(ProvisioningSession.java:181)
+	at org.eclipse.equinox.p2.operations.ProfileModificationJob.runModal(ProfileModificationJob.java:76)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:188)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.nio.file.AccessDeniedException: S:\Eclipse\eclipse\eclipse.exe
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:275)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.delete(AbstractFileSystemProvider.java:105)
+	at java.base/java.nio.file.Files.delete(Files.java:1152)
+	at org.eclipse.equinox.internal.p2.touchpoint.natives.SimpleBackupStore.moveToBackup(SimpleBackupStore.java:573)
+	... 14 more
+!SESSION 2022-01-04 14:51:38.157 -----------------------------------------------
+eclipse.buildId=4.22.0.I20211124-1800
+java.version=17.0.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -data S:\Eclipse\2nd Year, 2nd Trimester -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2022-01-04 14:51:41.908
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-01-04 14:51:41.908
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1afa048a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@293ecff6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-01-04 14:51:41.908
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@70eb94d7,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@34d72f06,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-01-04 14:51:45.911
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\svet_'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2022-01-04 14:51:45.929
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.cdt.testsrunner.resultsview" id and the "C/C++ Unit" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2022-01-04 14:51:45.934
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.linuxtools.dataviewers.charts.view" id and the "Chart View" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2022-01-04 14:51:45.935
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.linuxtools.docker.ui.dockerContainersView" id and the "Docker Containers" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2022-01-04 14:51:45.936
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.linuxtools.docker.ui.dockerImagesView" id and the "Docker Images" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2022-01-04 14:51:45.937
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.linuxtools.docker.ui.dockerExplorerView" id and the "Docker Explorer" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2022-01-04 14:51:45.939
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.linuxtools.docker.ui.dockerImageHierarchyView" id and the "Docker Image Hierarchy" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2022-01-04 14:51:45.941
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.linuxtools.gcov.view" id and the "gcov" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2022-01-04 14:51:45.942
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.linuxtools.gprof.view" id and the "gprof" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2022-01-04 14:51:45.943
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.linuxtools.valgrind.ui.valgrindview" id and the "Valgrind" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2022-01-04 14:51:45.945
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.remote.ui.view.connections" id and the "Connections" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2022-01-04 14:51:45.947
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.search.SearchResultView" id and the "Classic Search" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2022-01-04 14:51:45.950
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.tracecompass.analysis.counters.ui.views.countersview" id and the "Counters" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2022-01-04 14:51:45.951
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.linuxtools.tmf.analysis.graph.ui.criticalpath.view.criticalpathview" id and the "Critical Flow View" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2022-01-04 14:51:45.953
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.tracecompass.analysis.lami.views.reportview" id and the "Analysis Report" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2022-01-04 14:51:45.954
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.tracecompass.analysis.os.linux.views.controlflow" id and the "Control Flow" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2022-01-04 14:51:45.955
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.tracecompass.analysis.os.linux.views.resources" id and the "Resources" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2022-01-04 14:51:45.956
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.tracecompass.analysis.os.linux.views.cpuusage" id and the "CPU Usage" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2022-01-04 14:51:45.958
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.tracecompass.analysis.timing.ui.segstore.table:org.eclipse.tracecompass.analysis.os.linux.latency.syscall" id and the "System Call Latencies" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2022-01-04 14:51:45.959
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.tracecompass.analysis.os.linux.views.latency.scatter" id and the "System Call Latency vs Time" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2022-01-04 14:51:45.960
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.tracecompass.analysis.timing.ui.segstore.statistics:org.eclipse.tracecompass.analysis.os.linux.latency.syscall" id and the "System Call Latency Statistics" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2022-01-04 14:51:45.961
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.tracecompass.analysis.os.linux.views.latency.density" id and the "System Call Density" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2022-01-04 14:51:45.962
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.tracecompass.analysis.os.linux.ui.kernelmemoryusageview" id and the "Kernel Memory Usage View" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2022-01-04 14:51:45.963
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.tracecompass.analysis.os.linux.views.diskioactivity" id and the "Disk I/O Activity" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2022-01-04 14:51:45.965
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.linuxtools.tmf.ui.views.callstack" id and the "Flame Chart" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2022-01-04 14:51:45.966
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.tracecompass.internal.analysis.timing.ui.callgraph.callgraphDensity" id and the "Function Durations Distribution" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2022-01-04 14:51:45.967
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.tracecompass.internal.analysis.timing.ui.flamegraph.flamegraphView" id and the "Flame Graph" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2022-01-04 14:51:45.968
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.tracecompass.internal.analysis.timing.ui.callgraph.statistics.callgraphstatistics" id and the "Function Duration Statistics" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2022-01-04 14:51:45.968
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.tracecompass.analysis.timing.ui.segstore.table" id and the "Segment Store Table" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2022-01-04 14:51:45.969
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.tracecompass.analysis.timing.ui.segstore.statistics" id and the "Descriptive Statistics" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2022-01-04 14:51:45.970
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.tracecompass.analysis.timing.ui.segstore.scatter2" id and the "Segments vs Time" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2022-01-04 14:51:45.970
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.tracecompass.analysis.timing.ui.segstore.table:org.eclipse.tracecompass.internal.analysis.timing.core.event.matching" id and the "Event Match Latencies" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2022-01-04 14:51:45.971
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.tracecompass.analysis.timing.ui.segstore.statistics:org.eclipse.tracecompass.internal.analysis.timing.core.event.matching" id and the "Event Match Latency Statistics" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2022-01-04 14:51:45.972
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.tracecompass.analysis.timing.ui.segstore.scatter2:org.eclipse.tracecompass.internal.analysis.timing.core.event.matching" id and the "Event Matches Scatter Graph" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2022-01-04 14:51:45.973
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.linuxtools.internal.lttng2.ui.views.control" id and the "Control" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2022-01-04 14:51:45.973
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.linuxtools.lttng2.ust.memoryusage" id and the "UST Memory Usage" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2022-01-04 14:51:45.974
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.tracecompass.analysis.timing.ui.segstore.table:org.eclipse.linuxtools.lttng2.ust.analysis.memory" id and the "Potential Leaks" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2022-01-04 14:51:45.974
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.tracecompass.analysis.timing.ui.segstore.scatter2:org.eclipse.linuxtools.lttng2.ust.analysis.memory" id and the "Potential Leaks vs Time" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2022-01-04 14:51:45.975
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.linuxtools.tmf.analysis.xml.ui.views.timegraph" id and the "XML Time Graph View" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2022-01-04 14:51:45.975
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.linuxtools.internal.tmf.analysis.xml.ui.views.xyview" id and the "XML XY Chart View" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2022-01-04 14:51:45.976
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.tracecompass.internal.tmf.analysis.xml.ui.views.latencytable" id and the "Latency Table" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2022-01-04 14:51:45.977
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.tracecompass.internal.tmf.analysis.xml.ui.views.scattergraph" id and the "Latency vs Time" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2022-01-04 14:51:45.978
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.tracecompass.internal.tmf.analysis.xml.ui.views.density" id and the "Latency vs Count" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2022-01-04 14:51:45.979
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.tracecompass.internal.tmf.analysis.xml.ui.views.statistics" id and the "Latency Statistics" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2022-01-04 14:51:45.980
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.linuxtools.tmf.ui.views.timechart" id and the "Time Chart" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2022-01-04 14:51:45.981
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.linuxtools.tmf.ui.views.ssvisualizer" id and the "State System Explorer" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2022-01-04 14:51:45.982
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.linuxtools.tmf.ui.views.colors" id and the "Colors" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2022-01-04 14:51:45.983
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.linuxtools.tmf.ui.views.filter" id and the "Filters" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2022-01-04 14:51:45.984
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.linuxtools.tmf.ui.tmfUml2SDSyncView" id and the "Sequence Diagram" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2022-01-04 14:51:45.985
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.linuxtools.tmf.ui.views.statistics" id and the "Statistics" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2022-01-04 14:51:45.986
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.linuxtools.tmf.ui.views.histogram" id and the "Histogram" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2022-01-04 14:51:45.986
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.tracecompass.tmf.ui.views.eventdensity" id and the "Event Density" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2022-01-04 14:51:45.987
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.linuxtools.tmf.ui.views.synchronization" id and the "Synchronization" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2022-01-04 14:51:46.006
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.cdt.debug.ui.memory.memorybrowser.MemoryBrowser" id and the "Memory Browser" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2022-01-04 14:51:46.011
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.pde.ui.PluginsView" id and the "Plug-ins" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2022-01-04 14:51:46.012
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.pde.ui.FeaturesView" id and the "Features" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2022-01-04 14:51:46.013
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.pde.ui.DependenciesView" id and the "Plug-in Dependencies" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2022-01-04 14:51:46.014
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.pde.ui.TargetPlatformState" id and the "Target Platform State" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2022-01-04 14:51:46.015
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.pde.ui.ImageBrowserView" id and the "Plug-in Image Browser" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled

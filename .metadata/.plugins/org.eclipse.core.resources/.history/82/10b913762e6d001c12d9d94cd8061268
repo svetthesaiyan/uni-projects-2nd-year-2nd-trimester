@@ -1,0 +1,13 @@
+package exercises;
+
+import javax.swing.JFrame;
+
+public class MyFrame extends JFrame
+{
+	public MyFrame()	// конструктор (използва същото име като .java файла)
+	{
+		this.
+		
+		this.setVisible(true);
+	}
+}

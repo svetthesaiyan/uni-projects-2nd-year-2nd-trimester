@@ -1,0 +1,54 @@
+package exercises;
+
+import java.awt.GridLayout;
+
+import javax.swing.JComboBox;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JTextField;
+
+public class MyFrame extends JFrame
+{
+	JPanel upPanel  =new JPanel();
+	JPanel midPanel =new JPanel();
+	JPanel downPanel=new JPanel();
+	
+	JLabel firstNameLabel=new JLabel("Име: ");
+	JLabel lastNameLabel =new JLabel("Фамилия: ");
+	JLabel sexLabel      =new JLabel("Пол: ");
+	JLabel ageLabel      =new JLabel("Възраст: ");
+	JLabel salaryLabel   =new JLabel("Заплата: ");
+	
+	JTextField firstNameField=new JTextField();
+	JTextField lastNameField =new JTextField();
+	JTextField ageField      =new JTextField();
+	JTextField salaryField   =new JTextField();
+	
+	String[] item={"Мъж", "Жена"};
+	JComboBox<String> sexCombo=new JComboBox<String>(item);
+	
+	public MyFrame()	// конструктор (използва същото име като .java файла)
+	{
+		this.setSize(400, 600);		// задаваме шаблонни стойности на размера на прозореца, като го отваряме за пръв път
+		this.setDefaultCloseOperation(EXIT_ON_CLOSE);	// като затворим прозореца, приключваме цялата програма
+		
+		this.setLayout(new GridLayout(3,1));
+		
+		upPanel.setLayout(new GridLayout(5,2));
+		upPanel.add(firstNameLabel);
+		upPanel.add(firstNameField);
+		upPanel.add(lastNameLabel);
+		upPanel.add(lastNameField);
+		upPanel.add(sexLabel);
+		upPanel.add(sexCombo);
+		upPanel.add(ageLabel);
+		upPanel.add(ageField);
+		upPanel.add(salaryLabel);
+		upPanel.add(salaryField);
+		
+		this.add(upPanel);
+		
+		this.setVisible(true);
+	}
+}

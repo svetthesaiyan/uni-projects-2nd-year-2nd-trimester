@@ -1,0 +1,26 @@
+package exercises;
+
+import java.awt.GridLayout;
+
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+
+public class MyFrame extends JFrame
+{
+	JPanel upPanel  =new JPanel();
+	JPanel midPanel =new JPanel();
+	JPanel downPanel=new JPanel();
+	
+	JLabel fnameLabel=new JLabel("Име: ")
+	
+	public MyFrame()	// конструктор (използва същото име като .java файла)
+	{
+		this.setSize(400, 600);		// задаваме шаблонни стойности на размера на прозореца, като го отваряме за пръв път
+		this.setDefaultCloseOperation(EXIT_ON_CLOSE);	// като затворим прозореца, приключваме цялата програма
+		
+		this.setLayout(new GridLayout(3,1));
+		
+		this.setVisible(true);
+	}
+}
