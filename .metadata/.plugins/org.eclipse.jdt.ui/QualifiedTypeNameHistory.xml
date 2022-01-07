@@ -8,4 +8,7 @@
     <fullyQualifiedTypeName name="javax.swing.JLabel"/>
     <fullyQualifiedTypeName name="javax.swing.JButton"/>
     <fullyQualifiedTypeName name="java.awt.event.ActionListener"/>
+    <fullyQualifiedTypeName name="enums.AttackTypeEnum"/>
+    <fullyQualifiedTypeName name="enums.UnitClassEnum"/>
+    <fullyQualifiedTypeName name="abstract_entities.Unit"/>
 </qualifiedTypeNameHistroy>

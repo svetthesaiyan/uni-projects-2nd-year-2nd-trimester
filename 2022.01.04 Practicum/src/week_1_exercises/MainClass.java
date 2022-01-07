@@ -4,6 +4,6 @@ public class MainClass
 {
 	public static void main(String[] args)
 	{
-		MyFrame frame=new MyFrame();	// �?ъздаваме обект от кла�?а `MyFrame`
+		MyFrame frame=new MyFrame();	// създаваме обект от класа `MyFrame`
 	}
 }

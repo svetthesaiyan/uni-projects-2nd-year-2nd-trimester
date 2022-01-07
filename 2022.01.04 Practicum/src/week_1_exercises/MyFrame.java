@@ -28,7 +28,7 @@ public class MyFrame extends JFrame
 	JTextField ageField      =new JTextField();
 	JTextField salaryField   =new JTextField();
 
-	String[] item= { "Мъж", "Жена" };
+	String[] item= {"Мъж", "Жена"};
 	JComboBox<String> sexCombo=new JComboBox<String>(item);
 
 	JButton addButton   =new JButton("Добавяне");
@@ -82,7 +82,7 @@ public class MyFrame extends JFrame
 		@Override
 		public void actionPerformed(ActionEvent e)
 		{
-			System.out.println(firstNameField.getText() + " " + lastNameField.getText() + " "+ sexCombo.getSelectedItem() + " " + ageField.getText() + " " + salaryField.getText());
+			System.out.println(firstNameField.getText() + " " + lastNameField.getText() + " " + sexCombo.getSelectedItem() + " " + ageField.getText() + " " + salaryField.getText());
 		}
 	}
 }
