@@ -3,6 +3,10 @@ package week_1_exercises;
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
 
 import javax.swing.JButton;
 import javax.swing.JComboBox;
@@ -13,6 +17,10 @@ import javax.swing.JTextField;
 
 public class MyFrame extends JFrame
 {
+	Connection connection	   =null;
+	PreparedStatement statement=null;
+	ResultSet result		   =null;
+	
 	JPanel upPanel  =new JPanel();
 	JPanel midPanel =new JPanel();
 	JPanel downPanel=new JPanel();
@@ -28,7 +36,7 @@ public class MyFrame extends JFrame
 	JTextField ageField      =new JTextField();
 	JTextField salaryField   =new JTextField();
 
-	String[] item= {"Мъж", "Жена"};
+	String[] item={"Мъж", "Жена"};
 	JComboBox<String> sexCombo=new JComboBox<String>(item);
 
 	JButton addButton   =new JButton("Добавяне");
@@ -82,7 +90,25 @@ public class MyFrame extends JFrame
 		@Override
 		public void actionPerformed(ActionEvent e)
 		{
-			System.out.println(firstNameField.getText() + " " + lastNameField.getText() + " " + sexCombo.getSelectedItem() + " " + ageField.getText() + " " + salaryField.getText());
+//			System.out.println(firstNameField.getText() + " " + lastNameField.getText() + " " + sexCombo.getSelectedItem() + " " + ageField.getText() + " " + salaryField.getText());
+			connection=DBConnection.getConnection();	// връзката с базата данни
+			String sql="insert into person(fname, lname, sex, age, salary) values(?, ?, ?, ?, ?)";
+			
+			try
+			{
+				statement=connection.prepareStatement(sql);
+				statement.setString(1, firstNameField.getText());
+				statement.setString(2, lastNameField .getText());
+				statement.setString(3, sexCombo.getSelectedItem().toString());
+				statement.setInt   (4, Integer.parseInt(ageField   .getText()));
+				statement.setFloat (5, Float.parseFloat(salaryField.getText()));
+				
+				statement.execute();
+			}
+			catch(SQLException e1)
+			{
+				e1.printStackTrace();
+			}
 		}
 	}
 }
