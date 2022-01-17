@@ -1,4 +1,4 @@
-package week_1_exercises;
+package database_GUI_workspace;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -13,7 +13,7 @@ public class DBConnection
 		try
 		{
 			Class.forName("org.h2.Driver");
-			conn=DriverManager.getConnection("jdbc:h2:tcp://localhost/C:\\Users\\svet_\\Desktop\\Програмиране\\2ра Година, 2ри Триместър\\Практикум по ООП и БД\\PersonDB", "sa", "1234");
+			conn=DriverManager.getConnection("jdbc:h2:tcp://localhost/C:\\Users\\svet_\\Desktop\\Програмиране\\2ра Година, 2ри Триме�?тър\\Практикум по ООП и БД\\PersonDB", "sa", "1234");
 		}
 		catch(ClassNotFoundException e)
 		{

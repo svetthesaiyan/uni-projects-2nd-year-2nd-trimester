@@ -1,4 +1,4 @@
-package week_1_exercises;
+package database_GUI_workspace;
 
 public class MainClass 
 {

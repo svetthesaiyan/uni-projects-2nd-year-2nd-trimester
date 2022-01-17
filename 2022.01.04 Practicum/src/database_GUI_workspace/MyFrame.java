@@ -1,4 +1,4 @@
-package week_1_exercises;
+package database_GUI_workspace;
 
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
@@ -26,9 +26,9 @@ public class MyFrame extends JFrame
 	JPanel downPanel=new JPanel();
 
 	JLabel firstNameLabel=new JLabel("Име: ");
-	JLabel lastNameLabel =new JLabel("Фамилия: ");
+	JLabel lastNameLabel =new JLabel("Фамили�?: ");
 	JLabel sexLabel      =new JLabel("Пол: ");
-	JLabel ageLabel      =new JLabel("Възраст: ");
+	JLabel ageLabel      =new JLabel("Възра�?т: ");
 	JLabel salaryLabel   =new JLabel("Заплата: ");
 
 	JTextField firstNameField=new JTextField();
@@ -39,7 +39,7 @@ public class MyFrame extends JFrame
 	String[] item={"Мъж", "Жена"};
 	JComboBox<String> sexCombo=new JComboBox<String>(item);
 
-	JButton addButton   =new JButton("Добавяне");
+	JButton addButton   =new JButton("Добав�?не");
 	JButton deleteButton=new JButton("Изтриване");
 	JButton editButton  =new JButton("Редактиране");
 
