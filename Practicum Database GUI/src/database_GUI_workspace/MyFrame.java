@@ -99,7 +99,7 @@ public class MyFrame extends JFrame
 		table		 .addMouseListener (new MouseAction());
 		addButton	 .addActionListener(new AddAction());
 		deleteButton .addActionListener(new DeleteAction());
-//		editButton   .addActionListener(new EditAction());
+		editButton   .addActionListener(new EditAction());
 		searchButton .addActionListener(new SearchAction());
 		refreshButton.addActionListener(new RefreshAction());
 		
@@ -189,15 +189,35 @@ public class MyFrame extends JFrame
 		}
 	}
 	
-//	class EditAction implements ActionListener
-//	{
-//		@Override
-//		public void actionPerformed(ActionEvent e)
-//		{
-//			connection=DBConnection.getConnection();
-//			String sql="";
-//		}
-//	}
+	class EditAction implements ActionListener
+	{
+		@Override
+		public void actionPerformed(ActionEvent e)
+		{
+			int row=table.getSelectedRow();
+			String value=(table.getModel().getValueAt(row, 0).toString());
+			
+			connection=DBConnection.getConnection();
+			String sql="update person set fname=?, lname=?, sex=?, age=?, salary=? where id="+value;
+			
+			try
+			{
+				statement=connection.prepareStatement(sql);
+				statement.setString(1, firstNameField.getText());
+				statement.setString(2, lastNameField .getText());
+				statement.setString(3, sexCombo.getSelectedItem().toString());
+				statement.setString(4, ageField		 .getText());
+				statement.setString(5, salaryField	 .getText());
+				
+				statement.executeUpdate();
+				refreshTable();
+			}
+			catch(Exception e1)
+			{
+				e1.printStackTrace();
+			}
+		}
+	}
 	
 	class SearchAction implements ActionListener
 	{
