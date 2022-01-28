@@ -43,7 +43,8 @@ public class MyFrame extends JFrame
 	JTextField salaryField   =new JTextField();
 
 	String[] item={"Мъж", "Жена"};
-	JComboBox<String> sexCombo=new JComboBox<String>(item);
+	JComboBox<String> sexCombo	 =new JComboBox<String>(item);
+	JComboBox<String> personCombo=new JComboBox<String>();
 
 	JButton addButton    =new JButton("Добавяне");
 	JButton deleteButton =new JButton("Изтриване");
@@ -84,6 +85,7 @@ public class MyFrame extends JFrame
 		midPanel.add(editButton);
 		midPanel.add(searchButton);
 		midPanel.add(refreshButton);
+		midPanel.add(personCombo);
 
 		this.add(midPanel);
 
@@ -104,8 +106,31 @@ public class MyFrame extends JFrame
 		refreshButton.addActionListener(new RefreshAction());
 		
 		refreshTable();
+		refreshCombo();
 
 		this.setVisible(true);
+	}
+	
+	public void refreshCombo()
+	{
+		personCombo.removeAllItems();
+		
+		String sql="select id, fname, lname from person";	// SQL командата е дефинирана в тип 'String' и се ползва по-надолу с командата 'prepareStatement()', за да се изпълни
+		
+		connection=DBConnection.getConnection();	// връзката с базата данни
+		String item="";
+		
+		try
+		{
+			statement=connection.prepareStatement(sql);
+			result=statement.executeQuery();
+			while(result.next())
+			{
+				item=result.getObject(1).toString()+". "+result.getObject(2).toString()+" "+result.getObject(3).toString();
+				personCombo.addItem(item);
+			}
+		}
+		catch(SQLException e) {e.printStackTrace();}
 	}
 	
 	public void refreshTable()
@@ -113,18 +138,12 @@ public class MyFrame extends JFrame
 		connection=DBConnection.getConnection();
 		try 
 		{
-			statement=connection.prepareStatement("select * from person");
+			statement=connection.prepareStatement("select * from person");	// SQL кодът е директно вкаран като аргумент на `prepareStatement()`
 			result=statement.executeQuery();
 			table.setModel(new MyModel(result));
 		}
-		catch(SQLException e)
-		{
-			e.printStackTrace();
-		}
-		catch(Exception e)
-		{
-			e.printStackTrace();
-		}
+		catch(SQLException e) {e.printStackTrace();}
+		catch(Exception e) 	  {e.printStackTrace();}
 	}
 	
 	public void clearForm()
@@ -140,8 +159,7 @@ public class MyFrame extends JFrame
 		@Override
 		public void actionPerformed(ActionEvent e)
 		{
-//			System.out.println(firstNameField.getText() + " " + lastNameField.getText() + " " + sexCombo.getSelectedItem() + " " + ageField.getText() + " " + salaryField.getText());
-			connection=DBConnection.getConnection();	// връзката с базата данни
+			connection=DBConnection.getConnection();	
 			String sql="insert into person(fname, lname, sex, age, salary) values(?, ?, ?, ?, ?)";
 			
 			try
@@ -155,12 +173,10 @@ public class MyFrame extends JFrame
 				
 				statement.execute();
 				refreshTable();
+				refreshCombo();
 				clearForm();
 			}
-			catch(SQLException e1)
-			{
-				e1.printStackTrace();
-			}
+			catch(SQLException e1) {e1.printStackTrace();}
 		}
 	}
 	
@@ -179,13 +195,11 @@ public class MyFrame extends JFrame
 				statement.execute();
 				
 				refreshTable();
+				refreshCombo();
 				clearForm();
 				id=-1;
 			}
-			catch(SQLException e1)
-			{
-				e1.printStackTrace();
-			}
+			catch(SQLException e1) {e1.printStackTrace();}
 		}
 	}
 	
@@ -205,17 +219,14 @@ public class MyFrame extends JFrame
 				statement=connection.prepareStatement(sql);
 				statement.setString(1, firstNameField.getText());
 				statement.setString(2, lastNameField .getText());
-				statement.setString(3, sexCombo.getSelectedItem().toString());
+				statement.setString(3, sexCombo		 .getSelectedItem().toString());
 				statement.setString(4, ageField		 .getText());
 				statement.setString(5, salaryField	 .getText());
 				
 				statement.executeUpdate();
 				refreshTable();
 			}
-			catch(Exception e1)
-			{
-				e1.printStackTrace();
-			}
+			catch(Exception e1) {e1.printStackTrace();}
 		}
 	}
 	
@@ -234,24 +245,15 @@ public class MyFrame extends JFrame
 				result=statement.executeQuery();
 				table.setModel(new MyModel(result));
 			}
-			catch(SQLException e1)
-			{
-				e1.printStackTrace();
-			}
-			catch(Exception e1)
-			{
-				e1.printStackTrace();
-			}
+			catch(SQLException e1) {e1.printStackTrace();}
+			catch(Exception e1)    {e1.printStackTrace();}
 		}
 	}
 	
 	class RefreshAction implements ActionListener
 	{
 		@Override
-		public void actionPerformed(ActionEvent e)
-		{
-			refreshTable();
-		}
+		public void actionPerformed(ActionEvent e) {refreshTable();}
 	}
 	
 	class MouseAction implements MouseListener
@@ -274,19 +276,12 @@ public class MyFrame extends JFrame
 		}
 
 		@Override
-		public void mousePressed(MouseEvent e)
-		{}
-
+		public void mousePressed (MouseEvent e) {}
 		@Override
-		public void mouseReleased(MouseEvent e)
-		{}
-
+		public void mouseReleased(MouseEvent e) {}
 		@Override
-		public void mouseEntered(MouseEvent e)
-		{}
-
+		public void mouseEntered (MouseEvent e) {}
 		@Override
-		public void mouseExited(MouseEvent e)
-		{}
+		public void mouseExited  (MouseEvent e) {}
 	}
 }

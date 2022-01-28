@@ -1,4 +1,4 @@
-package database_GUI_workspace;
+ package database_GUI_workspace;
 
 import javax.swing.JFrame;
 import javax.swing.JPanel;

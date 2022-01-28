@@ -14,10 +14,7 @@ public class MyModel extends AbstractTableModel
 	private int columnCount;
 	private ArrayList<Object> data=new ArrayList<Object>();
 
-	public MyModel(ResultSet rs) throws Exception
-	{
-		setRS(rs);
-	}
+	public MyModel(ResultSet rs) throws Exception {setRS(rs);}
 
 	public void setRS(ResultSet rs) throws Exception
 	{
@@ -37,15 +34,8 @@ public class MyModel extends AbstractTableModel
 		}
 	}
 
-	public int getRowCount()
-	{
-		return rowCount;
-	}
-	
-	public int getColumnCount()
-	{
-		return columnCount;
-	}
+	public int getRowCount() 	{return rowCount;}
+	public int getColumnCount()	{return columnCount;}
 
 	public Object getValueAt(int rowIndex, int columnIndex)
 	{
