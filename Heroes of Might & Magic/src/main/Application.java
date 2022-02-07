@@ -10,5 +10,6 @@ public class Application
 //		game.start();
 		
 		CustomArrayListTest.test();
+//		CustomLinkedListTest.test();
 	}
 }

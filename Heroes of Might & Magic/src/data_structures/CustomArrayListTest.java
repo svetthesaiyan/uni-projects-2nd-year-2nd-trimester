@@ -6,27 +6,35 @@ public class CustomArrayListTest
 {
 	public static void test()
 	{
-		initCustomArrayList();
-		testCustomArrayListExpandability();
-		insertBooleans();
-		insertUnitMage();
+		removeListElementTest();
+		removeListFirstElementTest();
+		removeListNonExistingElementTest();
+//		testCustomArrayListExpandability();
+//		insertBooleans();
+//		insertUnitMage();
 	}
 	
-	private static void initCustomArrayList()
+	private static void removeListElementTest()
 	{
 		System.out.println("Test 1");
 		
-		CustomArrayList list=new CustomArrayList();
+		CustomArrayList<Integer> list=new CustomArrayList<>();
 		list.add(1);
 		list.add(2);
 		list.add(3);
 		list.add(4);
+		list.add(5);
 		
-		for(Object element : list.getCollection())
+		list.removeAt(2);
+		
+		for(int element : list)
 			System.out.println(element);
+		
+//		for(Object element : list.getCollection())
+//			System.out.println(element);
 	}
 	
-	private static void testCustomArrayListExpandability()
+	private static void removeListFirstElementTest()
 	{
 		System.out.println("Test 2");
 		
@@ -36,40 +44,74 @@ public class CustomArrayListTest
 		list.add(3);
 		list.add(4);
 		list.add(5);
-		list.add(6);
-		list.add(7);
+		
+		list.removeAt(0);
 		
 		for(Object element : list.getCollection())
 			System.out.println(element);
 	}
 	
-	private static void insertBooleans()
+	private static void removeListNonExistingElementTest()
 	{
 		System.out.println("Test 3");
 		
 		CustomArrayList list=new CustomArrayList();
-		list.add(true);
-		list.add(false);
+		list.add(1);
+		list.add(2);
+		list.add(3);
+		list.add(4);
+		list.add(5);
+		
+		list.removeAt(19);
 		
 		for(Object element : list.getCollection())
 			System.out.println(element);
 	}
 	
-	private static void insertUnitMage()
-	{
-		System.out.println("Test 4");
-		
-		CustomArrayList<UnitMage> list=new CustomArrayList<UnitMage>();
-		list.add(new UnitMage(0, 0));
-		list.add(new UnitMage(1, 1));
-		System.out.println(list.get(0).getRow());
-		UnitMage[] newCollection=list.getCollection();
-		
-		for(int i=1; i<list.size(); i++)
-		{
-			System.out.println(list.get(i).getRow());
-			System.out.println(list.get(i).getCol());
-		}
+//	private static void testCustomArrayListExpandability()
+//	{
+//		System.out.println("Test 2");
+//		
+//		CustomArrayList list=new CustomArrayList();
+//		list.add(1);
+//		list.add(2);
+//		list.add(3);
+//		list.add(4);
+//		list.add(5);
+//		list.add(6);
+//		list.add(7);
+//		
+//		for(Object element : list.getCollection())
+//			System.out.println(element);
+//	}
+//	
+//	private static void insertBooleans()
+//	{
+//		System.out.println("Test 3");
+//		
+//		CustomArrayList list=new CustomArrayList();
+//		list.add(true);
+//		list.add(false);
+//		
+//		for(Object element : list.getCollection())
+//			System.out.println(element);
+//	}
+//	
+//	private static void insertUnitMage()
+//	{
+//		System.out.println("Test 4");
+//		
+//		CustomArrayList<UnitMage> list=new CustomArrayList<UnitMage>();
+//		list.add(new UnitMage(0, 0));
+//		list.add(new UnitMage(1, 1));
+//		System.out.println(list.get(0).getRow());
+//		UnitMage[] newCollection=list.getCollection();
+//		
+//		for(int i=1; i<list.size(); i++)
+//		{
+//			System.out.println(list.get(i).getRow());
+//			System.out.println(list.get(i).getCol());
+//		}
 		
 //		var collection=list.getCollection();	// var - системна променлива, която autocomplete-ва типа, от който трябва да е самата променлива 
 //		System.out.println(collection[0].getCol());
@@ -84,5 +126,4 @@ public class CustomArrayListTest
 //				System.out.println("@@@");
 //			}
 //		}
-	}
 }
