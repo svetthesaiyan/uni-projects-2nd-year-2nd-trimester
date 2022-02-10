@@ -1,4 +1,4 @@
-package trimester_2_lectures;
+package first_workspace;
 
 public class Student extends Human
 {

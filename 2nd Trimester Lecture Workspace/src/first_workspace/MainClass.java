@@ -1,4 +1,4 @@
-package trimester_2_lectures;
+package first_workspace;
 
 import java.util.ArrayList;
 import java.util.Comparator;

@@ -1,4 +1,4 @@
-package trimester_2_lectures;
+package first_workspace;
 
 public abstract class Human implements Comparable<Human>
 {
