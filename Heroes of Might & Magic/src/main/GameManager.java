@@ -74,10 +74,10 @@ public class GameManager
 	private boolean isGameOn() {return true;}
 	
 	private void setActivePlayer(Player player)	{this.activePlayer=player;}
-	private Player getActivePlayer() {return this.activePlayer;}
+	private Player getActivePlayer() {return 	 this.activePlayer;}
 	
 	private void setActiveUnit(Unit unit) {this.activeUnit=unit;}
-	private Unit getActiveUnit() {return this.activeUnit;}
+	private Unit getActiveUnit() {return   this.activeUnit;}
 	
 	private GameObject getGameObjectFromArena(int row, int col) {return this.arena[row][col];}
 	
@@ -115,7 +115,6 @@ public class GameManager
 		{
 			Unit gameUnit=unitCollection.get(i);
 			System.out.println(i+" - "+gameUnit.dialogueRender());
-			
 		}
 	}
 	

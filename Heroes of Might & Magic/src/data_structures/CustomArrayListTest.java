@@ -1,17 +1,62 @@
 package data_structures;
 
-import entitites.UnitMage;
-
 public class CustomArrayListTest
 {
 	public static void test()
 	{
-		removeListElementTest();
-		removeListFirstElementTest();
-		removeListNonExistingElementTest();
+		testFunctionalInterface();
+//		removeListElementTest();
+//		removeListFirstElementTest();
+//		removeListNonExistingElementTest();
 //		testCustomArrayListExpandability();
 //		insertBooleans();
 //		insertUnitMage();
+	}
+	
+	public static void testFunctionalInterface()
+	{
+		CustomArrayList<Integer> list=new CustomArrayList<>();
+		list.add(1);
+		list.add(2);
+		list.add(3);
+		list.add(4);
+		list.add(5);
+
+/*		
+		 1. Инстанция на интефейсен клас
+		list.forEach(new ConsumerImplementation<>());
+		
+		 2. Инстанция на анонимен клас
+		Consumer<Integer> consumerInstance=new Consumer()
+		{
+			@Override
+			public void accept(Object o)
+			{
+				System.out.println("This is an anonymous class");
+				System.out.println(o);
+			}
+		};
+		
+		 list.forEach(consumerInstance);
+		
+		 3. Вътрешен анонимен клас
+		list.forEach(new Consumer<Integer>()
+		{
+
+			@Override
+			public void accept(Integer integer)
+			{
+				System.out.println("Inner anonymous class");
+			}
+		});
+*/		
+		
+		// 4. С помощта на ламбда функции
+		list.forEach(element -> 
+		{
+			System.out.println("Lambda function");
+			System.out.println(element);
+		});
 	}
 	
 	private static void removeListElementTest()
@@ -46,9 +91,6 @@ public class CustomArrayListTest
 		list.add(5);
 		
 		list.removeAt(0);
-		
-		for(Object element : list.getCollection())
-			System.out.println(element);
 	}
 	
 	private static void removeListNonExistingElementTest()
@@ -63,67 +105,5 @@ public class CustomArrayListTest
 		list.add(5);
 		
 		list.removeAt(19);
-		
-		for(Object element : list.getCollection())
-			System.out.println(element);
 	}
-	
-//	private static void testCustomArrayListExpandability()
-//	{
-//		System.out.println("Test 2");
-//		
-//		CustomArrayList list=new CustomArrayList();
-//		list.add(1);
-//		list.add(2);
-//		list.add(3);
-//		list.add(4);
-//		list.add(5);
-//		list.add(6);
-//		list.add(7);
-//		
-//		for(Object element : list.getCollection())
-//			System.out.println(element);
-//	}
-//	
-//	private static void insertBooleans()
-//	{
-//		System.out.println("Test 3");
-//		
-//		CustomArrayList list=new CustomArrayList();
-//		list.add(true);
-//		list.add(false);
-//		
-//		for(Object element : list.getCollection())
-//			System.out.println(element);
-//	}
-//	
-//	private static void insertUnitMage()
-//	{
-//		System.out.println("Test 4");
-//		
-//		CustomArrayList<UnitMage> list=new CustomArrayList<UnitMage>();
-//		list.add(new UnitMage(0, 0));
-//		list.add(new UnitMage(1, 1));
-//		System.out.println(list.get(0).getRow());
-//		UnitMage[] newCollection=list.getCollection();
-//		
-//		for(int i=1; i<list.size(); i++)
-//		{
-//			System.out.println(list.get(i).getRow());
-//			System.out.println(list.get(i).getCol());
-//		}
-		
-//		var collection=list.getCollection();	// var - системна променлива, която autocomplete-ва типа, от който трябва да е самата променлива 
-//		System.out.println(collection[0].getCol());
-		
-//		for(UnitMage element : list.getCollection())
-//		{
-//			if(element!=null)
-//			{
-//				//UnitMage unitMageElement=(UnitMage)element;
-//				System.out.println(element.getRow());
-//				System.out.println(element.getCol());
-//				System.out.println("@@@");
-//			}
-//		}
 }

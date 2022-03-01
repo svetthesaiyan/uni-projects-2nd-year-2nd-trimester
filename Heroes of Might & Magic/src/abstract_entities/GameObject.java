@@ -19,9 +19,9 @@ public abstract class GameObject
 	public void makeObjectSolid	  () {this.isPassable=false;}
 	public boolean isPassable	  () {return this.isPassable;}
 	
-	public int getRow()	{return this.row;}
+	public int  getRow() {return this.row;}
 	public void setRow(int row) {this.row=row;}
 	
-	public int getCol()	{return this.col;}
+	public int  getCol() {return this.col;}
 	public void setCol(int col) {this.col=col;}
 }

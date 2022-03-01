@@ -13,7 +13,7 @@ public class Terminal
 	public static int inputNumber()
 	{
 		Scanner scanner=new Scanner(System.in);
-		return scanner.nextInt();
+		return  scanner.nextInt();
 	}
 
 	public static String inputString(String message)
@@ -25,6 +25,6 @@ public class Terminal
 	public static String inputString()
 	{
 		Scanner scanner=new Scanner(System.in);
-		return scanner.nextLine();
+		return  scanner.nextLine();
 	}
 }
